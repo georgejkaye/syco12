@@ -2,15 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/static/styles.css" />
-    <link rel="icon" href="/static/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <link rel="icon" href="./static/logo.svg" type="image/svg+xml" />
     <title>SYCO 12</title>
   </head>
   <body>
     <div id="content">
       <div id="header">
         <div>
-          <img id="logo" src="/static/logo.svg" alt="SYCO logo" />
+          <img id="logo" src="./static/logo.svg" alt="SYCO logo" />
         </div>
         <div>
           <h1>Twelfth Symposium on Compositional Structures (SYCO 12)</h1>
@@ -159,7 +159,7 @@
       <div id="organisers">
         {%- for member in organising -%}
         <div>
-          <img class="person" src="static/{{ member.img }}"/>
+          <img class="person" src="./static/{{ member.img }}"/>
           <div class="name"><a href="{{ member.web }}">{{ member.name }}</a></div>
           <div class="affiliation">{{ member.affiliation }}</div>
         </div>
