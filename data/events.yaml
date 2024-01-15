@@ -1,0 +1,16 @@
+- name: Categories, Logic and Physics
+  web: http://categorieslogicphysics.wikidot.com/archive
+- name: Categories, Logic and Physics (Scotland)
+  web: http://conferences.inf.ed.ac.uk/clapscotland
+- name: Higher-Dimensional Rewriting and Applications
+  web: http://hdra.gforge.inria.fr/
+- name: String Diagrams in Computation, Logic and Physics
+  web: https://compose.ioc.ee/strings2020/
+- name: Applied Category Theory
+  web: https://www.appliedcategorytheory.org/
+- name: Simons Workshop on Compositionality
+  web: https://simons.berkeley.edu/workshops/compositionality
+- name: Yorkshire and Midlands Category Theory Seminar
+  web: https://conferences.leeds.ac.uk/yamcats
+- name: the Peripatetic Seminar in Sheaves and Logic
+  web: https://ncatlab.org/nlab/show/Peripatetic+Seminar+on+Sheaves+and+Logic

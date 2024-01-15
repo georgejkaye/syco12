@@ -1,0 +1,17 @@
+{
+  "name": "syco12",
+  "version": "1.0.0",
+  "description": "Webpage for SYCO 12",
+  "main": "index.js",
+  "repository": "git@github.com:jamievicary/syco.git",
+  "author": "George Kaye <georgejkaye@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "js-yaml": "^4.1.0"
+  }
+}

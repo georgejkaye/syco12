@@ -1,0 +1,38 @@
+- name: logical methods in computer science
+  including:
+  - classical and quantum programming
+  - type theory
+  - concurrency
+  - natural language processing
+  - machine learning
+- name: graphical calculi
+  including:
+  - string diagrams
+  - Petri nets
+  - reaction networks
+- name: languages and frameworks
+  including:
+  - process algebras
+  - proof nets
+  - type theory
+  - game semantics
+- name: abstract algebra and pure category theory
+  including:
+  - monoidal category theory
+  - higher category theory
+  - operads
+  - polygraphs
+  - relationships to homotopy theory
+- name: quantum algebra
+  including:
+  - quantum computation
+  - representation theory
+- name: tools and techniques
+  including:
+  - rewriting
+  - formal proofs and proof assistants
+  - game theory
+- name: industrial applications
+  including:
+  - case studies
+  - real-world problem descriptions
