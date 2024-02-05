@@ -160,7 +160,7 @@
       <div class="people">
         {%- for member in organising -%}
         <div>
-          <img class="person" src="./static/{{ member.img }}"/>
+          <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
           <div class="name"><a href="{{ member.web }}">{{ member.name }}</a></div>
           <div class="affiliation">{{ member.affiliation }}</div>
         </div>
@@ -173,7 +173,7 @@
       <div class="people">
         {%- for member in programme -%}
         <div>
-          <img class="person" src="./static/{{ member.img }}"/>
+          <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
           <div class="name"><a href="{{ member.web }}">{{ member.name }}{%- if member.chair %} (chair){%- endif -%}</a></div>
           <div class="affiliation">{{ member.affiliation }}</div>
         </div>
