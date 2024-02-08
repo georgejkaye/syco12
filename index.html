@@ -84,7 +84,18 @@
 
       <h2 id="dates">Important dates</h2>
 
-      <p>To be announced.</p>
+      <ul>
+          {%- for date in dates -%}
+            <li class="{%- if date.done -%}past{%- endif -%}">
+                <span class="event">
+                  {{ date.name }}:
+                </span>
+                <span class="date">
+                  {{ date.date }}
+                </span>
+            </li>
+          {%- endfor -%}
+      </ul>
 
       <h2 id="online">In-person and online participation</h2>
       <p>
