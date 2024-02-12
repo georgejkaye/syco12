@@ -82,6 +82,26 @@
         > in Leicester on 08-12 April.
       </p>
 
+      <h2>Invited speakers</h2>
+
+      <div class="invited-speakers">
+        {%- for speaker in invited -%}
+          <div class="invited-speaker">
+            <img src="static/{{ speaker.img }}" width="230px" alt="{{ speaker.name }}" />
+            <div class="name">
+              {%- if speaker.url -%}
+                <a href="{{ speaker.url }}">
+              {% endif %}
+              {{ speaker.name }}
+              {%- if speaker.url -%}
+                  </a>
+              {% endif %}
+            </div>
+            <div class="affiliation">{{ speaker.affiliation }}</div>
+          </div>
+        {%- endfor -%}
+      </div>
+
       <h2 id="dates">Important dates</h2>
 
       <p>
