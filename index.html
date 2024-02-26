@@ -216,7 +216,7 @@
 
       <div class="people">
         {%- for member in organising -%}
-        <div>
+        <div class="person-box">
           <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
           <div class="name"><a href="{{ member.web }}">{{ member.name }}</a></div>
           <div class="affiliation">{{ member.affiliation }}</div>
@@ -226,13 +226,11 @@
 
       <h2 id="pc">Programme committee</h2>
 
-      <p>Full committee to be announced.</p>
-
       <div class="people">
         {%- for member in programme -%}
-        <div>
+        <div class="person-box">
           <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
-          <div class="name"><a href="{{ member.web }}">{{ member.name }}{%- if member.chair %} (chair){%- endif -%}</a></div>
+          <div class="name">{% if member.web %}<a href="{{ member.web }}" title="{{ member.name }}'s personal webpage">{% endif %}{{ member.name }}{%- if member.chair %} (chair){%- endif -%}{% if member.web %}</a>{% endif %}</div>
           <div class="affiliation">{{ member.affiliation }}</div>
         </div>
         {%- endfor -%}

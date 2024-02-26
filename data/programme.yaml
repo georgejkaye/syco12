@@ -1,5 +1,64 @@
+- name: Todd Ambridge
+  web: https://www.cs.bham.ac.uk/~txw467/
+  affiliation: University of Birmingham
+  img: ambridge.jpg
 - name: Thibaut Benjamin
   web: https://thibautbenjamin.github.io/
   affiliation: University of Cambridge
   chair: true
   img: benjamin.jpg
+- name: Olivia Caramello
+  web: https://www.oliviacaramello.com/
+  affiliation: University of Insubria
+  img: caramello.jpg
+- name: Ross Duncan
+  web: http://personal.strath.ac.uk/ross.duncan/
+  affiliation: University of Strathclyde
+  img: duncan.jpg
+- name: Chris Heunen
+  web: https://homepages.inf.ed.ac.uk/cheunen/
+  affiliation: University of Edinburgh
+  img: heunen.jpg
+- name: Dominic Horsman
+  img: horsman.jpg
+  affiliation: University of Grenoble
+- name: George Kaye
+  web: https://georgejkaye.com
+  affiliation: University of Birmingham
+  img: kaye.jpg
+- name: Aleks Kissinger
+  web: https://www.cs.ox.ac.uk/people/aleks.kissinger/
+  affiliation: University of Oxford
+  img: kissinger.jpg
+- name: Jean-Simon Lemay
+  web: https://sites.google.com/view/jspl-personal-webpage/
+  affiliation: Macquarie University
+  img: lemay.jpg
+- name: Paul Levy
+  web: https://www.cs.bham.ac.uk/~pbl/
+  affiliation: University of Birmingham
+  img: levy.jpg
+- name: Samuel Mimram
+  web: http://www.lix.polytechnique.fr/Labo/Samuel.Mimram//
+  affiliation: Ecole Polytechnique
+  img: mimram.jpg
+- name: Simona Paoli
+  affiliation: University of Aberdeen
+  web: https://sites.google.com/view/simona-paoli-webpage
+  img: paoli.jpg
+- name: Morgan Rogers
+  affiliation: LIPN
+  web: https://lipn.univ-paris13.fr/~rogers/
+  img: rogers.jpg
+- name: Mehrnoosh Sadzradeh
+  web: https://profiles.ucl.ac.uk/72648-mehrnoosh-sadrzadeh
+  affiliation: University College London
+  img: sadzradeh.jpg
+- name: Pawel Sobocinski
+  web: https://cs.ioc.ee/~pawel/
+  affiliation: Taltech
+  img: sobocinski.jpg
+- name: Jamie Vicary
+  web: https://www.cl.cam.ac.uk/~jv258/
+  affiliation: University of Cambridge
+  img: vicary.jpg
