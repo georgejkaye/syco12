@@ -112,13 +112,15 @@
 
       <ul>
           {%- for date in dates -%}
-            <li class="{%- if date.done -%}past{%- endif -%}">
+            <li>
+              {%- if date.done -%}<s>{%- endif -%}
                 <span class="event">
                   {{ date.name }}:
                 </span>
                 <span class="date">
                   {{ date.date }}
                 </span>
+              {%- if date.done -%}</s>{%- endif -%}
             </li>
           {%- endfor -%}
       </ul>
