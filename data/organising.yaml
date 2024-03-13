@@ -1,8 +1,2 @@
-- name: Todd Ambridge
-  web: https://www.cs.bham.ac.uk/~txw467/
-  affiliation: University of Birmingham
-  img: ambridge.jpg
-- name: George Kaye
-  web: https://georgejkaye.com
-  affiliation: University of Birmingham
-  img: kaye.jpg
+- name: ambridge
+- name: kaye

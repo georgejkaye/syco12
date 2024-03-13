@@ -1,27 +1,9 @@
-- name: Ross Duncan
-  affiliation: University of Strathclyde
-  web: http://personal.strath.ac.uk/ross.duncan/
-- name: Chris Heunen
-  affiliation: University of Edinburgh
-  web: http://homepages.inf.ed.ac.uk/cheunen/
-- name: Dominic Horsman
-  affiliation: University of Grenoble
-  web: https://quantum.univ-grenoble-alpes.fr/fostering-the-ecosystem/our-chairs-of-excellence/quantum-computing/horsman-dominic-734445.htm
-- name: Aleks Kissinger
-  affiliation: University of Oxford
-  web: https://www.cs.ox.ac.uk/people/aleks.kissinger/
-- name: Samuel Mimram
-  affiliation: École Polytechnique
-  web: http://www.lix.polytechnique.fr/Labo/Samuel.Mimram/
-- name: Simona Paoli
-  affiliation: University of Aberdeen
-  web: https://www.abdn.ac.uk/people/Simona.Paoli
-- name: Mehrnoosh Sadrzadeh
-  affiliation: University College London
-  web: https://msadrzadeh.com/
-- name: Pawel Sobocinski
-  affiliation: Tallinn University of Technology
-  web: https://www.ioc.ee/~pawel/
-- name: Jamie Vicary
-  affiliation: University of Cambridge
-  web: https://www.cl.cam.ac.uk/~jv258/
+- name: duncan
+- name: heunen
+- name: horsman
+- name: kissinger
+- name: mimram
+- name: paoli
+- name: sadzradeh
+- name: sobocinski
+- name: vicary

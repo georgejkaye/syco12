@@ -172,10 +172,11 @@
 
       <div class="people">
         {%- for member in organising -%}
+        {%- assign person = people[member.name] -%}
         <div class="person-box">
-          <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
-          <div class="name"><a href="{{ member.web }}">{{ member.name }}</a></div>
-          <div class="affiliation">{{ member.affiliation }}</div>
+          <img class="person" src="./static/{{ person.img }}" alt="{{ person.name }}"/>
+          <div class="name"><a href="{{ person.web }}">{{ person.name }}</a></div>
+          <div class="affiliation">{{ person.affiliation }}</div>
         </div>
         {%- endfor -%}
       </div>
@@ -184,10 +185,11 @@
 
       <div class="people">
         {%- for member in programme -%}
+        {%- assign person = people[member.name] -%}
         <div class="person-box">
-          <img class="person" src="./static/{{ member.img }}" alt="{{ member.name }}"/>
-          <div class="name">{% if member.web %}<a href="{{ member.web }}" title="{{ member.name }}'s personal webpage">{% endif %}{{ member.name }}{%- if member.chair %} (chair){%- endif -%}{% if member.web %}</a>{% endif %}</div>
-          <div class="affiliation">{{ member.affiliation }}</div>
+          <img class="person" src="./static/{{ person.img }}" alt="{{ person.name }}"/>
+          <div class="name">{% if person.web %}<a href="{{ person.web }}" title="{{ person.name }}'s personal webpage">{% endif %}{{ person.name }}{%- if member.chair %} (chair){%- endif -%}{% if person.web %}</a>{% endif %}</div>
+          <div class="affiliation">{{ person.affiliation }}</div>
         </div>
         {%- endfor -%}
       </div>
@@ -199,14 +201,18 @@
         question about SYCO, or if you want to propose to host a future
         iteration, please get in touch with a member of the steering committee.
       </p>
-      <ul>
+
+      <div class="people">
         {%- for member in steering -%}
-        <li>
-          <a href="{{ member.web }}">{{ member.name }}</a>,
-          {{ member.affiliation }}
-        </li>
+        {%- assign person = people[member.name] -%}
+        <div class="person-box">
+          <img class="person" src="./static/{{ person.img }}" alt="{{ person.name }}"/>
+          <div class="name">{% if person.web %}<a href="{{ person.web }}" title="{{ person.name }}'s personal webpage">{% endif %}{{ person.name }}{% if person.web %}</a>{% endif %}</div>
+          <div class="affiliation">{{ person.affiliation }}</div>
+        </div>
         {%- endfor -%}
-      </ul>
+      </div>
+
       <h2 id="sponsorship">Sponsorship</h2>
       <p>
         Thanks to <a href="https://www.cs.bham.ac.uk/~drg/" title="Dan Ghica's personal webpage">Dan Ghica</a> for
