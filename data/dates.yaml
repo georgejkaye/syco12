@@ -1,6 +1,6 @@
 - name: Submission deadline
   date: Monday 11 March 2024
-  done: false
+  done: true
 - name: Author notification
   date: Monday 18 March 2024
   done: false
