@@ -150,10 +150,12 @@
       {%- for item in talks -%}
         {%- assign key = item[0] -%}
         {%- assign talk = talks[key] -%}
+        {%- if not talk.invited -%}
         <li><div><b>{%- for author in talk.authors -%}
           {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
           {%- if not forloop.last %}, {% endif -%}
           {%- endfor -%}</b></div><div>{{ talk.title }}</div></li>
+        {%- endif -%}
       {%- endfor -%}
       </ul>
 

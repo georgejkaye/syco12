@@ -1,3 +1,17 @@
+backens:
+  title: Graphical rewriting of quantum computations using the ZX-calculus and flow properties
+  invited: true
+  authors:
+    - name: Miriam Backens
+      presenter: true
+  abstract: This is an invited talk.
+moss:
+  title: TBA
+  invited: true
+  authors:
+    - name: Sean Moss
+      presenter: true
+  abstract: This is an invited talk.
 massacrier:
   title: "Single-set cubical categories and their formalisation with a proof assistant"
   authors:
@@ -74,4 +88,4 @@ lisita:
   title: "Automated Reasoning for Tangles with Quantum Verification Applications"
   authors:
     - name: Alexei Lisitsa
-    - name: Andrew Fish 
+    - name: Andrew Fish
