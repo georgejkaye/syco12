@@ -45,11 +45,6 @@ rosset:
     - name: Maaike Zwart
     - name: Helle Hvid Hansen
     - name: Jörg Endrullis
-ghalayini:
-  title: "Effectful Semantics for Substructural SSA"
-  authors:
-    - name: Jad Elkhaleq Ghalayini
-    - name: Neel Krishnaswami
 mateo:
   title: "Pushing monads forward"
   authors:
