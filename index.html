@@ -6,6 +6,18 @@
     <link rel="icon" href="./static/logo.svg" type="image/svg+xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SYCO 12</title>
+    <script>
+      function toggleAbstract(talk) {
+        var abstractElem = document.getElementById(talk + "-abstract");
+        if(abstractElem.classList.contains("abstract-hidden")) {
+          abstractElem.classList.remove("abstract-hidden")
+          abstractElem.classList.add("abstract-visible")
+        } else {
+          abstractElem.classList.add("abstract-hidden")
+          abstractElem.classList.remove("abstract-visible")
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="content">
@@ -187,8 +199,18 @@
                     {%- endfor -%}</b>
                   </div>
                 </div>
-                <div>
-                  {{ talk.title }}
+                <div class="schedule-talk-second-row">
+                  <div class="talk-title">
+                    {{ talk.title }}
+                  </div>
+                  {%- if talk.abstract -%}
+                  <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
+                    [Abstract]
+                  </button>
+                  {%- endif -%}
+                </div>
+                <div id="{{ item.talk }}-abstract" class="abstract abstract-hidden">
+                    {{ talk.abstract }}
                 </div>
             </div>
             {%- endif -%}

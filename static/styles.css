@@ -130,12 +130,30 @@ h2 {
 .schedule-item {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   padding: 10px;
+}
+
+.schedule-item:last-child {
+  border-bottom: 1px solid black;
 }
 
 .schedule-section-title {
   margin: 0 0;
+}
+
+.talk-button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-decoration: underline;
+  color: blue;
 }
 
 .schedule-break-details {
@@ -149,6 +167,19 @@ h2 {
   margin-bottom: 10px;
 }
 
+.schedule-talk-second-row {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.abstract {
+  padding-top: 10px;
+  border-top: 1px solid gray;
+  margin-top: 10px;
+}
+
+
 @media only screen and (max-width: 600px) {
   .schedule-talk-details {
     flex-direction: column;
@@ -156,6 +187,24 @@ h2 {
   .talk-authors {
     margin-top: 10px;
   }
+  .schedule-talk-second-row {
+    flex-direction: column;
+  }
+  .talk-button {
+    margin: 5px 0;
+  }
+}
+
+.talk-title {
+  flex: 1
+}
+
+.abstract-hidden {
+  display: none;
+}
+
+.abstract-visible {
+  display: block;
 }
 
 .schedule-break {
@@ -182,33 +231,6 @@ h2 {
 .talk {
   position: relative;
   display: inline-block;
-}
-.abstract {
-  width: 475px;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  background-color: #dfffdf;
-  padding: 0.5rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  text-align: justify;
-}
-.abstract:before {
-  position: absolute;
-  z-index: -1;
-  content: "";
-  right: calc(50% - 10px);
-  top: -8px;
-  border-style: solid;
-  border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #dfffdf transparent;
-  transition-duration: 0.3s;
-  transition-property: transform;
-}
-.talk:hover .abstract {
-  z-index: 10;
-  opacity: 1;
-  visibility: visible;
 }
 
 .people {
