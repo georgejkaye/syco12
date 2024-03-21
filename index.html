@@ -159,7 +159,41 @@
 
       <h2 id="programme">Schedule</h2>
 
-      To be announced.
+      <div class="schedule">
+        {%- for day in schedule -%}
+          {%- assign dayname = day[0] -%}
+          {%- assign dayitem = schedule[dayname] -%}
+          <h3 class="schedule-section-title">{{ dayitem.name }}</h3>
+          <div class="schedule-day">
+          {%- for item in dayitem.schedule -%}
+            {%- if item.type == "break" -%}
+            <div class="schedule-item schedule-break">
+              <div class="schedule-break-details">
+                <div class="schedule-time">{{ item.time }}</div>
+                <div><b>{{ item.name | makeUppercase }}</b></div>
+              </div>
+            </div>
+            {%- elsif item.type == "talk" -%}
+            {%- assign talk = talks[item.talk] -%}
+            <div class="schedule-item schedule-talk">
+                <div class="schedule-talk-details">
+                  <div class="schedule-time">{{ item.time }}</div>
+                  <div class="talk-authors">
+                    <b>{%- for author in talk.authors -%}
+                    {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
+                    {%- if not forloop.last %}, {% endif -%}
+                    {%- endfor -%}</b>
+                  </div>
+                </div>
+                <div>
+                  {{ talk.title }}
+                </div>
+            </div>
+            {%- endif -%}
+          {%- endfor -%}
+          </div>
+        {%- endfor -%}
+      </div>
 
       <h2 id="localInformation">Local information</h2>
 

@@ -1,0 +1,69 @@
+monday:
+  name: Monday 15 April
+  schedule:
+  - type: break
+    name: registration
+    time: 09:30-10:30
+  - type: talk
+    talk: backens
+    time: 10:30-11:30
+  - type: talk
+    talk: talk1
+    time: 11:30-12:00
+  - type: break
+    name: lunch
+    time: 12:00-13:00
+  - type: talk
+    talk: talk2
+    time: 13:00-13:30
+  - type: talk
+    talk: talk3
+    time: 13:30-14:00
+  - type: talk
+    talk: talk4
+    time: 14:00-14:30
+  - type: break
+    name: break
+    time: 14:30-15:00
+  - type: talk
+    talk: talk5
+    time: 15:00-15:30
+  - type: talk
+    talk: talk6
+    time: 15:30-16:00
+  - type: talk
+    talk: talk7
+    time: 16:00-16:30
+tuesday:
+  name: Tuesday 16 April
+  schedule:
+  - type: talk
+    talk: moss
+    time: 10:30-11:30
+  - type: talk
+    talk: talk8
+    time: 11:30-12:00
+  - type: break
+    name: lunch
+    time: 12:00-13:00
+  - type: talk
+    talk: talk9
+    time: 13:00-13:30
+  - type: talk
+    talk: talk10
+    time: 13:30-14:00
+  - type: talk
+    talk: talk11
+    time: 14:00-14:30
+  - type: break
+    name: break
+    time: 14:30-15:00
+  - type: talk
+    talk: talk12
+    time: 15:00-15:30
+  - type: talk
+    talk: talk13
+    time: 15:30-16:00
+  - type: talk
+    talk: talk14
+    time: 16:00-16:30
