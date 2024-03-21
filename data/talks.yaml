@@ -19,7 +19,7 @@ massacrier:
     - name: Philippe Malbos
     - name: Georg Struth
   abstract: |
-     We introduce a single-set axiomatisation of cubical ω-categories, including connections and inverses. We justify these axioms by establishing a series of equivalences between the category of single-set cubical ω-categories, and their variants with connections and inverses, and the corresponding cubical ω-categories. We also report on the formalisation of cubical ω-categories with the Isabelle/HOL proof assistant, which has been instrumental in finding the single-set axioms.
+     We introduce a single-set axiomatisation of cubical \(\omega\)-categories, including connections and inverses. We justify these axioms by establishing a series of equivalences between the category of single-set cubical \(\omega\)-categories, and their variants with connections and inverses, and the corresponding cubical \(\omega\)-categories. We also report on the formalisation of cubical \(\omega\)-categories with the Isabelle/HOL proof assistant, which has been instrumental in finding the single-set axioms.
 
 bonchi:
   title: "Diagrammatic Algebra of First Order Logic"
@@ -81,7 +81,7 @@ mateo:
   authors:
     - name: Adrián Doña Mateo
   abstract: |
-    Codensity monads are often thought of as the monad induced by a functor and its left adjoint, even when the latter does not exist. The same idea can be applied to the situation of pushing a monad forward along an adjunction. Explicitly, if 𝐓 is a monad on 𝒞 and U : 𝒞 → 𝒟 is right adjoint to F, then U𝐓F is a monad on 𝒟, which we denote G_*𝐓. Even when U is not a right adjoint, we can define G_*𝐓 subject to the existence of a right Kan extension. In this note, we study the properties of this construction, which we call the pushforward of monads, and see a few examples. In particular, we examine the pushforwards of several monads from the category of finite sets to Set. Lastly, we find that the category of algebras for the codensity monad of the inclusion of Field into Ring is the free (small) product completion of Field. This turns out to also be monadic over Set.
+    Codensity monads are often thought of as the monad induced by a functor and its left adjoint, even when the latter does not exist. The same idea can be applied to the situation of pushing a monad forward along an adjunction. Explicitly, if \(\mathbf{T}\) is a monad on \(\mathcal{C}\) and \(U \colon \mathcal{C} \to \mathcal{D}\) is right adjoint to \(F\), then \(U\mathbf{T}F\) is a monad on \(\mathcal{D}\), which we denote \(G_\ast\mathbf{T}\). Even when \(U\) is not a right adjoint, we can define \(G_\ast\mathbf{T}\) subject to the existence of a right Kan extension. In this note, we study the properties of this construction, which we call the pushforward of monads, and see a few examples. In particular, we examine the pushforwards of several monads from the category of finite sets to \(\mathbf{Set}\). Lastly, we find that the category of algebras for the codensity monad of the inclusion of \(\mathbf{Field}\) into \(\mathbf{Ring}\) is the free (small) product completion of \(\mathbf{Field}\). This turns out to also be monadic over \(\mathbf{Set}\).
 wrigley:
   title: "A topos-theoretic framework for reconstruction theorems in model theory"
   authors:
@@ -89,9 +89,9 @@ wrigley:
   abstract: |
     A classical result in model theory [1] asserts that an atomic/countably categorical theory can be reconstructed, up to bi-interpretability, from the topological automorphism group of its unique countable model. Recent work by Ben Yaacov has shown that the atomicity/countable categoricity assumption can be dropped if, instead of a topological group, one uses a topological groupoid. However, the groupoid considered in [2] is not a groupoid of models for the theory.
 
-    In this presentation, we will demonstrate how the theorem of Ahlbrandt and Ziegler can be recovered and generalised by topos-theoretic means, using the representation of classifying toposes by topological groupoids (as in [3] and [4]). We will show that two theories T₁, T₂ with representing groupoids of models are Morita equivalent (which is equivalent to bi-interpretability in the classical context, see [5]) if and only if the representing groupoids 𝒳, 𝒴 admit a cospan
+    In this presentation, we will demonstrate how the theorem of Ahlbrandt and Ziegler can be recovered and generalised by topos-theoretic means, using the representation of classifying toposes by topological groupoids (as in [3] and [4]). We will show that two theories \(T_1\), \(T_2\) with representing groupoids of models are Morita equivalent (which is equivalent to bi-interpretability in the classical context, see [5]) if and only if the representing groupoids \(\mathcal{X}\), \(\mathcal{Y}\) admit a cospan
 
-    𝒳 → 𝒲 ← 𝒴
+    \(\mathcal{X} \to \mathcal{W} \leftarrow \mathcal{Y}\)
 
     of weak equivalences. The work is based on the author’s PhD thesis [6].
 
@@ -115,11 +115,11 @@ forsman:
 
     (Monoidal Meta-Theorem)
 
-    Let C be a (cartesian/symmetric) monoidal category and let E ∪ ϕ be a (cartesian/symmetric) monoidal theory of universal algebra. Then
+    Let C be a (cartesian/symmetric) monoidal category and let \(E \cup \phi\) be a (cartesian/symmetric) monoidal theory of universal algebra. Then
 
-     E ⊨ ϕ in Set implies that E ⊨ ϕ in C
+    \(E \vDash \phi\) in \(\mathbf{Set}\) implies that \(E \vDash \phi\) ϕ in \(C\)
 
-    This meta-theorem makes a modest connection from algebraic structures in \textbf{Set} to monoidally enriched algebraic structures."
+    This meta-theorem makes a modest connection from algebraic structures in \(\mathbf{Set}\) to monoidally enriched algebraic structures."
 levy:
   title: "Game-enriched categories"
   authors:
