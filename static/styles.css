@@ -180,6 +180,16 @@ h2 {
 }
 
 
+.close-abstract-button {
+  margin-top: 5px;
+}
+
+.close-button-holder {
+  display: flex;
+  justify-content: right;
+}
+
+
 @media only screen and (max-width: 600px) {
   .schedule-talk-details {
     flex-direction: column;
@@ -192,6 +202,10 @@ h2 {
   }
   .talk-button {
     margin: 5px 0;
+  }
+
+  .close-button-holder {
+    justify-content: left;
   }
 }
 

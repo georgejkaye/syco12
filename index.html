@@ -218,7 +218,14 @@
                   {%- endif -%}
                 </div>
                 <div id="{{ item.talk }}-abstract" class="abstract abstract-hidden">
+                  <div>
                     {{ talk.abstract | newline_to_br }}
+                  </div>
+                  <div class="close-button-holder">
+                    <button class="close-abstract-button talk-button" onClick="toggleAbstract('{{ item.talk }}')">
+                      [Close abstract]
+                    </button>
+                  </div>
                 </div>
             </div>
             {%- endif -%}
