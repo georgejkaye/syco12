@@ -3,7 +3,7 @@
   done: true
 - name: Author notification
   date: Monday 18 March 2024
-  done: false
+  done: true
 - name: Registration deadline
   date: Wednesday 03 April 2024
   done: false
