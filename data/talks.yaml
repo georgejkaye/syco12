@@ -18,6 +18,9 @@ massacrier:
     - name: Tanguy Massacrier
     - name: Philippe Malbos
     - name: Georg Struth
+  abstract: |
+     We introduce a single-set axiomatisation of cubical ω-categories, including connections and inverses. We justify these axioms by establishing a series of equivalences between the category of single-set cubical ω-categories, and their variants with connections and inverses, and the corresponding cubical ω-categories. We also report on the formalisation of cubical ω-categories with the Isabelle/HOL proof assistant, which has been instrumental in finding the single-set axioms.
+
 bonchi:
   title: "Diagrammatic Algebra of First Order Logic"
   authors:
@@ -25,24 +28,34 @@ bonchi:
     - name: Alessandro Di Giorgio
     - name: Nathan Haydon
     - name: Pawel Sobocinski
+  abstract: |
+    We introduce the calculus of neo-Peircean relations, a string diagrammatic extension of the calculus of binary relations that has the same expressivity as first order logic and comes with a complete axiomatisation. The axioms are obtained by combining two well known categorical structures: cartesian and linear bicategories.
 kharoof:
   title: "Homotopical characterization of strong contextuality"
   authors:
     - name: Aziz Kharoof
+  abstract:
+     Simplicial distributions introduced in the paper “Simplicial quantum contextuality” provide topological and categorical approaches to the study of contextuality for collections of probability distributions. Strong contextuality is a special case of contextuality that help to find contextual vertices and there are models coming from quantum mechanics which are strongly contextual. We give a novel homotopical characterization of strongly contextual simplicial distributions with binary outcomes, specifically those defined on the cone of a 1-dimensional space. To prove this result, we associate to a simplicial distribution a category whose morphisms correspond to conditional probability distributions. The composition in this category is induced by the 0-order composition of the compository (in the sense of the paper “Compositories and gleaves”) that we get by applying the distribution monad on the nerve of a small category. The result shows that the strong contextuality depends only on loops in the associated category.
 donato:
   title: "The Flower Calculus"
   authors:
     - name: Pablo Donato
+  abstract:
+    We introduce the flower calculus, a deep inference proof system for intuitionistic first-order logic inspired by Peirce’s existential graphs. It works as a rewriting system over inductive objects called “flowers”, that enjoy both a graphical interpretation as topological diagrams, and a textual presentation as nested sequents akin to coherent formulas. Importantly, the calculus dispenses completely with the traditional notion of symbolic connective, operating solely on nested flowers containing atomic predicates. We prove both the soundness of the full calculus and the completeness of an analytic fragment with respect to Kripke semantics. This provides to our knowledge the first analyticity result for a proof system based on existential graphs, adapting semantic cut-elimination techniques to a deep inference setting. Furthermore, the kernel of rules targetted by completeness is fully invertible, a desirable property for both automated and interactive proof search.
 breuvart:
   title: "On the Centre of Strong Graded Monads"
   authors:
     - name: Flavien Breuvart
     - name: Quan Long
     - name: Vladimir Zamdzhiev
+  abstract: |
+     We introduce the notion of “centre” for pomonoid-graded strong monads which generalizes some previous work that describes the centre of (not graded) strong monads. We show that, whenever the centre exists, this determines a pomonoid-graded commutative submonad of the original one. We also discuss how this relates to duoidally-graded strong monads.
 sergeant-pethuis:
   title: "Compositional statistical mechanics, entropy and variational inference"
   authors:
     - name: Grégoire Sergeant-Perthuis
+  abstract: |
+    In this document, we aim to gather various results related to a compositional/categorical approach to rigorous Statistical Mechanics. Rigorous Statistical Mechanics is centered on the mathematical study of statistical systems. Central concepts in this field have a natural expression in terms of diagrams in a category that couples measurable maps and Markov kernels. We showed that statistical systems are particular representations of partially ordered sets (posets), that we call -specifications, and expressed their phases, i.e., Gibbs measures, as invariants of these representations. It opens the way to the use of homological algebra to compute phases of statistical systems. Two central results of rigorous Statistical Mechanics are, firstly, the characterization of extreme Gibbs measure as it relates to the zero–one law for extreme Gibbs measures, and, secondly, their variational principle which states that for translation invariant Hamiltonians, Gibbs measures are the minima of the Gibbs free energy. We showed how the characterization of extreme Gibbs measures extends to -specifications; we proposed an Entropy functional for -specifications and gave a message-passing algorithm, that generalized the belief propagation algorithm of graphical models (see O. Peltre's SYCO 8 talk), to minimize variations free energy.
 corbyn:
   title: "homotopy.io: a proof assistant for finitely-presented globular n-categories"
   authors:
@@ -52,6 +65,8 @@ corbyn:
     - name: Chiara Sarti
     - name: Calin Tataru
     - name: Jamie Vicary
+  abstract: |
+    We present the proof assistant homotopy.io for working with finitely-presented semistrict higher categories. The tool runs in the browser with a point-and-click interface, allowing direct manipulation of proof objects via a graphical representation. We describe the user interface and explain how the tool can be used in practice. We also describe the essential subsystems of the tool, including collapse, contraction, expansion, typechecking, and layout, as well as key implementation details including data structure encoding, memoisation, and rendering. These technical innovations have been essential for achieving good performance in a resource-constrained setting.
 rosset:
   title: "Correspondence between Composite Theories and Distributive Laws"
   authors:
@@ -59,22 +74,60 @@ rosset:
     - name: Maaike Zwart
     - name: Helle Hvid Hansen
     - name: Jörg Endrullis
+  abstract: |
+    Composite theories are the algebraic equivalent of distributive laws. In this paper, we delve into the details of this correspondence and concretely show how to construct a composite theory from a distributive law and vice versa. Using term rewriting methods, we also describe when a minimal set of equations axiomatises the composite theory.
 mateo:
   title: "Pushing monads forward"
   authors:
     - name: Adrián Doña Mateo
+  abstract: |
+    Codensity monads are often thought of as the monad induced by a functor and its left adjoint, even when the latter does not exist. The same idea can be applied to the situation of pushing a monad forward along an adjunction. Explicitly, if 𝐓 is a monad on 𝒞 and U : 𝒞 → 𝒟 is right adjoint to F, then U𝐓F is a monad on 𝒟, which we denote G_*𝐓. Even when U is not a right adjoint, we can define G_*𝐓 subject to the existence of a right Kan extension. In this note, we study the properties of this construction, which we call the pushforward of monads, and see a few examples. In particular, we examine the pushforwards of several monads from the category of finite sets to Set. Lastly, we find that the category of algebras for the codensity monad of the inclusion of Field into Ring is the free (small) product completion of Field. This turns out to also be monadic over Set.
 wrigley:
   title: "A topos-theoretic framework for reconstruction theorems in model theory"
   authors:
     - name: Joshua Wrigley
+  abstract: |
+    A classical result in model theory [1] asserts that an atomic/countably categorical theory can be reconstructed, up to bi-interpretability, from the topological automorphism group of its unique countable model. Recent work by Ben Yaacov has shown that the atomicity/countable categoricity assumption can be dropped if, instead of a topological group, one uses a topological groupoid. However, the groupoid considered in [2] is not a groupoid of models for the theory.
+
+    In this presentation, we will demonstrate how the theorem of Ahlbrandt and Ziegler can be recovered and generalised by topos-theoretic means, using the representation of classifying toposes by topological groupoids (as in [3] and [4]). We will show that two theories T₁, T₂ with representing groupoids of models are Morita equivalent (which is equivalent to bi-interpretability in the classical context, see [5]) if and only if the representing groupoids 𝒳, 𝒴 admit a cospan
+
+    𝒳 → 𝒲 ← 𝒴
+
+    of weak equivalences. The work is based on the author’s PhD thesis [6].
+
+    [1] G. Ahlbrandt and M. Ziegler, “Quasi finitely axiomatizable totally categorical theories,” Annals of Pure and Applied Logic, vol. 30, no. 1, pp. 63–82, 1986.
+
+    [2] I. Ben Yaacov, “Reconstruction of non-ℵ0-categorical theories,” The Journal of Symbolic Logic, vol. 87, no. 1, pp. 159–187, 2022.
+
+    [3] C. Butz and I. Moerdijk, “Representing topoi by topological groupoids,” Journal of Pure and Applied Algebra, vol. 130, no. 3, pp. 223–235, 1998.
+
+    [4] H. Forssell, “Topological representation of geometric theories,” Mathematical Logic Quarterly vol. 58, no. 6, pp. 380–393, 2012.
+
+    [5] P.A. McEldowney, “On Morita equivalence and interpretability”, Review of Symbolic Logic, vol. 13, no. 2, pp. 388–393 (2012).
+
+    [6] J. Wrigley, “Doctrinal and groupoidal representations of classifying topoi,” Ph.D. dissertation, University of Insubria, 2024. Available at: https://jlwrigley.github.io/thesis/thesis_wrigley.pdf
 forsman:
   title: "Monoidal Meta-Theorem"
   authors:
     - name: David Forsman
+  abstract: |
+    Some proofs of equations in (cartesian/symmetric) monoidal categories reduce to proving them in the cartesian monoidal category of sets. In the setting of cartesian monoidal categories, this is very well knonw. As a corollary, the Eckmann-Hilton argument generalizes from sets to all symmetric monoidal categories. We define the theories of multi-sorted universal algebra that can have interpretations in all monoidal, symmetric monoidal and cartesian monoidal categories, respectively. For these theories, we construct sound syntactic deduction systems, which are complete in the cartesian monoidal category of sets. This yields the meta-theorem:
+
+    (Monoidal Meta-Theorem)
+
+    Let C be a (cartesian/symmetric) monoidal category and let E ∪ ϕ be a (cartesian/symmetric) monoidal theory of universal algebra. Then
+
+     E ⊨ ϕ in Set implies that E ⊨ ϕ in C
+
+    This meta-theorem makes a modest connection from algebraic structures in \textbf{Set} to monoidally enriched algebraic structures."
 levy:
   title: "Game-enriched categories"
   authors:
     - name: Paul B Levy
+  abstract: |
+    Currently, game models of programming languages are presented as mere categories. I suggest that, where possible, we should instead present them as game-enriched categories. A potential benefit is that this would make it easier to vary the notion of strategy.
+
+    (Presented at the GALOP 2024 workshop.)"
 gavranovic:
   title: "Categorical Deep Learning: An Algebraic Theory of Architectures"
   authors:
@@ -84,8 +137,11 @@ gavranovic:
     - name: Tamara von Glehn
     - name: João Guilherme Madeira Araújo
     - name: Petar Veličković
+  abstract: |
+    We present our position on the elusive quest for a general-purpose framework for specifying and studying deep learning architectures. Our opinion is that the key attempts made so far lack a coherent bridge between specifying constraints which models must satisfy and specifying their implementations. Focusing on building a such a bridge, we propose to apply category theory— precisely, the universal algebra of monads valued in a 2-category of parametric maps—as a single theory elegantly subsuming both of these flavours of neural network design. To defend our position, we show how this theory recovers constraints induced by geometric deep learning, as well as implementations of many architectures drawn from the diverse landscape of neural networks, such as RNNs. We also illustrate how the theory naturally encodes many standard constructs in computer science and automata theory.
 lisita:
   title: "Automated Reasoning for Tangles with Quantum Verification Applications"
   authors:
     - name: Alexei Lisitsa
     - name: Andrew Fish
+  abstract: "We demonstrate utility of generic automated reasoning (AR) methods in the computational topology domain, evidencing the benefit of the use of existing AR machinery within the domain on the one hand, whilst providing a pathway into a rich playground with potential to drive future AR requirements. We also contribute towards quantum software verification, via a recent proposal to use tangles as a representation of a certain class of quantum programs. The general methodology is to transform tasks of equivalence of topological objects (tangles) into equivalence of algebraic objects (pointed quandles) and those in turn translate into AR tasks. To enhance trust in automated checks, this can be followed by interpretation of AR outputs as human-readable output, either in symbolic algebraic form suitable for domain experts or ideally in visual topological form, potentially suitable for all. We provide formalisation via an appropriate class of labelled tangles (suitable for Quantum Verification) with associated algebraic invariants (pointed involutory quandles) and translate equivalence checking of these invariants to equational reasoning tasks that are realised by Prover 9 and Prover X. Furthermore, subsequent to automated proof creation for quantum verification (QV) examples, we demonstrate manual extraction of visual proof rules and visual equivalence, utilising proof graphs produced by Prover X as a bridging step, progressing towards progressing towards the automation of human-readable visual proofs."
