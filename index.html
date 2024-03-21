@@ -144,6 +144,19 @@
         order to receive the livestream link!
      </p>
 
+      <h2>Accepted talks</h2>
+
+      <ul>
+      {%- for item in talks -%}
+        {%- assign key = item[0] -%}
+        {%- assign talk = talks[key] -%}
+        <li><div><b>{%- for author in talk.authors -%}
+          {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
+          {%- if not forloop.last %}, {% endif -%}
+          {%- endfor -%}</b></div><div>'{{ talk.title }}'</div></li>
+      {%- endfor -%}
+      </ul>
+
       <h2 id="programme">Schedule</h2>
 
       To be announced.

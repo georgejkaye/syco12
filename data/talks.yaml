@@ -1,0 +1,77 @@
+massacrier:
+  title: "Single-set cubical categories and their formalisation with a proof assistant"
+  authors:
+    - name: Tanguy Massacrier
+    - name: Philippe Malbos
+    - name: Georg Struth
+bonchi:
+  title: "Diagrammatic Algebra of First Order Logic"
+  authors:
+    - name: Filippo Bonchi
+    - name: Alessandro Di Giorgio
+    - name: Nathan Haydon
+    - name: Pawel Sobocinski
+kharoof:
+  title: "Homotopical characterization of strong contextuality"
+  authors:
+    - name: Aziz Kharoof
+donato:
+  title: "The Flower Calculus"
+  authors:
+    - name: Pablo Donato
+breuvart:
+  title: "On the Centre of Strong Graded Monads"
+  authors:
+    - name: Flavien Breuvart
+    - name: Quan Long
+    - name: Vladimir Zamdzhiev
+sergeant-pethuis:
+  title: "Compositional statistical mechanics, entropy and variational inference"
+  authors:
+    - name: Grégoire Sergeant-Perthuis
+corbyn:
+  title: "homotopy.io: a proof assistant for finitely-presented globular n-categories"
+  authors:
+    - name: Nathan Corbyn
+    - name: Lukas Heidemann
+    - name: Nick Hu
+    - name: Chiara Sarti
+    - name: Calin Tataru
+    - name: Jamie Vicary
+rosset:
+  title: "Correspondence between Composite Theories and Distributive Laws"
+  authors:
+    - name: Aloïs Rosset
+    - name: Maaike Zwart
+    - name: Helle Hvid Hansen
+    - name: Jörg Endrullis
+ghalayini:
+  title: "Effectful Semantics for Substructural SSA"
+  authors:
+    - name: Jad Elkhaleq Ghalayini
+    - name: Neel Krishnaswami
+mateo:
+  title: "Pushing monads forward"
+  authors:
+    - name: Adrián Doña Mateo
+wrigley:
+  title: "A topos-theoretic framework for reconstruction theorems in model theory"
+  authors:
+    - name: Joshua Wrigley
+forsman:
+  title: "Monoidal Meta-Theorem"
+  authors:
+    - name: David Forsman
+levy:
+  title: "Game-enriched categories"
+  authors:
+    - name: Paul B Levy
+gavranovic:
+  title: "Categorical Deep Learning: An Algebraic Theory of Architecturespdf icon"
+  authors:
+    - name: Bruno Gavranović
+    - name: Paul Lessard
+    - name: Andrew Joseph Dudzik
+    - name: Tamara von Glehn
+    - name: João Guilherme Madeira Araújo
+    - name: Petar Veličković
