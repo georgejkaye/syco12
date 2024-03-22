@@ -6,6 +6,26 @@
     <link rel="icon" href="./static/logo.svg" type="image/svg+xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SYCO 12</title>
+    <script>
+      function toggleAbstract(talk) {
+        var abstractElem = document.getElementById(talk + "-abstract");
+        if(abstractElem.classList.contains("abstract-hidden")) {
+          abstractElem.classList.remove("abstract-hidden")
+          abstractElem.classList.add("abstract-visible")
+        } else {
+          abstractElem.classList.add("abstract-hidden")
+          abstractElem.classList.remove("abstract-visible")
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
   </head>
   <body>
     <div id="content">
@@ -150,16 +170,73 @@
       {%- for item in talks -%}
         {%- assign key = item[0] -%}
         {%- assign talk = talks[key] -%}
+        {%- if not talk.invited -%}
         <li><div><b>{%- for author in talk.authors -%}
           {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
           {%- if not forloop.last %}, {% endif -%}
           {%- endfor -%}</b></div><div>{{ talk.title }}</div></li>
+        {%- endif -%}
       {%- endfor -%}
       </ul>
 
       <h2 id="programme">Schedule</h2>
 
-      To be announced.
+      <p>
+        The author marked with an asterisk * will be presenting the talk.
+      </p>
+
+      <div class="schedule">
+        {%- for day in schedule -%}
+          {%- assign dayname = day[0] -%}
+          {%- assign dayitem = schedule[dayname] -%}
+          <h3 class="schedule-section-title">{{ dayitem.name }}</h3>
+          <div class="schedule-day">
+          {%- for item in dayitem.schedule -%}
+            {%- if item.type == "break" -%}
+            <div class="schedule-item schedule-break">
+              <div class="schedule-break-details">
+                <div class="schedule-time">{{ item.time }}</div>
+                <div><b>{{ item.name | makeUppercase }}</b></div>
+              </div>
+            </div>
+            {%- elsif item.type == "talk" -%}
+            {%- assign talk = talks[item.talk] -%}
+            <div class="schedule-item schedule-talk">
+                <div class="schedule-talk-details">
+                  <div class="schedule-time">{{ item.time }}</div>
+                  <div class="talk-authors">
+                    <b>{%- for author in talk.authors -%}
+                    {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
+                    {%- if not forloop.last %}, {% endif -%}
+                    {%- endfor -%}</b>
+                  </div>
+                </div>
+                <div class="schedule-talk-second-row">
+                  <div class="talk-title">
+                    {{ talk.title }}
+                  </div>
+                  {%- if talk.abstract -%}
+                  <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
+                    [Abstract]
+                  </button>
+                  {%- endif -%}
+                </div>
+                <div id="{{ item.talk }}-abstract" class="abstract abstract-hidden">
+                  <div>
+                    {{ talk.abstract | newline_to_br }}
+                  </div>
+                  <div class="close-button-holder">
+                    <button class="close-abstract-button talk-button" onClick="toggleAbstract('{{ item.talk }}')">
+                      [Close abstract]
+                    </button>
+                  </div>
+                </div>
+            </div>
+            {%- endif -%}
+          {%- endfor -%}
+          </div>
+        {%- endfor -%}
+      </div>
 
       <h2 id="localInformation">Local information</h2>
 
