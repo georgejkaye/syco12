@@ -4,14 +4,12 @@ backens:
   authors:
     - name: Miriam Backens
       presenter: true
-  abstract: This is an invited talk.
 moss:
   title: TBA
   invited: true
   authors:
     - name: Sean Moss
       presenter: true
-  abstract: This is an invited talk.
 massacrier:
   title: "Single-set cubical categories and their formalisation with a proof assistant"
   authors:
