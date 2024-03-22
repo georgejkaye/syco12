@@ -111,7 +111,7 @@ forsman:
   authors:
     - name: David Forsman
   abstract: |
-    Some proofs of equations in (cartesian/symmetric) monoidal categories reduce to proving them in the cartesian monoidal category of sets. In the setting of cartesian monoidal categories, this is very well knonw. As a corollary, the Eckmann-Hilton argument generalizes from sets to all symmetric monoidal categories. We define the theories of multi-sorted universal algebra that can have interpretations in all monoidal, symmetric monoidal and cartesian monoidal categories, respectively. For these theories, we construct sound syntactic deduction systems, which are complete in the cartesian monoidal category of sets. This yields the meta-theorem:
+    Some proofs of equations in (cartesian/symmetric) monoidal categories reduce to proving them in the cartesian monoidal category of sets. In the setting of cartesian monoidal categories, this is very well known. As a corollary, the Eckmann-Hilton argument generalizes from sets to all symmetric monoidal categories. We define the theories of multi-sorted universal algebra that can have interpretations in all monoidal, symmetric monoidal and cartesian monoidal categories, respectively. For these theories, we construct sound syntactic deduction systems, which are complete in the cartesian monoidal category of sets. This yields the meta-theorem:
 
     (Monoidal Meta-Theorem)
 
@@ -119,7 +119,7 @@ forsman:
 
     \(E \vDash \phi\) in \(\mathbf{Set}\) implies that \(E \vDash \phi\) ϕ in \(C\)
 
-    This meta-theorem makes a modest connection from algebraic structures in \(\mathbf{Set}\) to monoidally enriched algebraic structures."
+    This meta-theorem makes a modest connection from algebraic structures in \(\mathbf{Set}\) to monoidally enriched algebraic structures.
 levy:
   title: "Game-enriched categories"
   authors:
@@ -127,7 +127,7 @@ levy:
   abstract: |
     Currently, game models of programming languages are presented as mere categories. I suggest that, where possible, we should instead present them as game-enriched categories. A potential benefit is that this would make it easier to vary the notion of strategy.
 
-    (Presented at the GALOP 2024 workshop.)"
+    (Presented at the GALOP 2024 workshop.)
 gavranovic:
   title: "Categorical Deep Learning: An Algebraic Theory of Architectures"
   authors:
@@ -139,7 +139,7 @@ gavranovic:
     - name: Petar Veličković
   abstract: |
     We present our position on the elusive quest for a general-purpose framework for specifying and studying deep learning architectures. Our opinion is that the key attempts made so far lack a coherent bridge between specifying constraints which models must satisfy and specifying their implementations. Focusing on building a such a bridge, we propose to apply category theory— precisely, the universal algebra of monads valued in a 2-category of parametric maps—as a single theory elegantly subsuming both of these flavours of neural network design. To defend our position, we show how this theory recovers constraints induced by geometric deep learning, as well as implementations of many architectures drawn from the diverse landscape of neural networks, such as RNNs. We also illustrate how the theory naturally encodes many standard constructs in computer science and automata theory.
-lisita:
+lisitsa:
   title: "Automated Reasoning for Tangles with Quantum Verification Applications"
   authors:
     - name: Alexei Lisitsa

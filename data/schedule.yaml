@@ -3,67 +3,73 @@ monday:
   schedule:
   - type: break
     name: registration
-    time: 09:30-10:30
+    time: 10:30-11:00
   - type: talk
     talk: backens
-    time: 10:30-11:30
+    time: 11:00-12:00
   - type: talk
-    talk: massacrier
-    time: 11:30-12:00
+    talk: lisitsa
+    time: 12:00-12:30
   - type: break
     name: lunch
-    time: 12:00-13:00
-  - type: talk
-    talk: bonchi
-    time: 13:00-13:30
-  - type: talk
-    talk: kharoof
-    time: 13:30-14:00
-  - type: talk
-    talk: donato
-    time: 14:00-14:30
-  - type: break
-    name: break
-    time: 14:30-15:00
+    time: 12:30-13:30
   - type: talk
     talk: breuvart
+    time: 13:30-14:00
+  - type: talk
+    talk: rosset
+    time: 14:00-14:30
+  - type: talk
+    talk: mateo
+    time: 14:30-15:00
+  - type: break
+    name: break
     time: 15:00-15:30
   - type: talk
-    talk: sergeant-pethuis
+    talk: forsman
     time: 15:30-16:00
   - type: talk
-    talk: corbyn
+    talk: kharoof
     time: 16:00-16:30
+  - type: talk
+    talk: wrigley
+    time: 16:30-17:00
+  - type: break
+    name: evening social and meal at cherry reds
+    time: 18:00-22:00
 tuesday:
   name: Tuesday 16 April
   schedule:
   - type: talk
     talk: moss
-    time: 10:30-11:30
+    time: 09:30-10:30
   - type: talk
-    talk: rosset
-    time: 11:30-12:00
-  - type: break
-    name: lunch
-    time: 12:00-13:00
-  - type: talk
-    talk: mateo
-    time: 13:00-13:30
-  - type: talk
-    talk: wrigley
-    time: 13:30-14:00
-  - type: talk
-    talk: forsman
-    time: 14:00-14:30
+    talk: sergeant-pethuis
+    time: 10:30-11:00
   - type: break
     name: break
+    time: 11:00-11:30
+  - type: talk
+    talk: bonchi
+    time: 11:30-12:00
+  - type: talk
+    talk: gavranovic
+    time: 12:00-12:30
+  - type: talk
+    talk: corbyn
+    time: 12:30-13:00
+  - type: break
+    name: lunch
+    time: 13:00-14:00
+  - type: talk
+    talk: massacrier
+    time: 14:00-14:30
+  - type: talk
+    talk: donato
     time: 14:30-15:00
   - type: talk
     talk: levy
     time: 15:00-15:30
-  - type: talk
-    talk: gavranovic
-    time: 15:30-16:00
-  - type: talk
-    talk: lisita
-    time: 16:00-16:30
+  - type: break
+    name: end
+    time: 15:30
