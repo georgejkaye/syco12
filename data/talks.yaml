@@ -122,6 +122,7 @@ levy:
   title: "Game-enriched categories"
   authors:
     - name: Paul B Levy
+      speaker: true
   abstract: |
     Currently, game models of programming languages are presented as mere categories. I suggest that, where possible, we should instead present them as game-enriched categories. A potential benefit is that this would make it easier to vary the notion of strategy.
 
