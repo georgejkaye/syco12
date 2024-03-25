@@ -174,7 +174,7 @@
         {%- assign talk = talks[key] -%}
         {%- if not talk.invited -%}
         <li><div><b>{%- for author in talk.authors -%}
-          {{ author.name }}{%- if author.presenter -%}*{%- endif -%}
+          {{ author.name }}
           {%- if not forloop.last %}, {% endif -%}
           {%- endfor -%}</b></div><div>{{ talk.title }}</div></li>
         {%- endif -%}
