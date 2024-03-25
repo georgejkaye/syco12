@@ -3,6 +3,10 @@ ambridge:
   web: https://www.cs.bham.ac.uk/~txw467/
   affiliation: University of Birmingham
   img: ambridge.jpg
+backens:
+  name: Miriam Backens
+  affiliation: INRIA Nancy
+  img: backens.jpg
 benjamin:
   name: Thibaut Benjamin
   web: https://thibautbenjamin.github.io/
@@ -52,6 +56,11 @@ mimram:
   web: http://www.lix.polytechnique.fr/Labo/Samuel.Mimram//
   affiliation: École Polytechnique
   img: mimram.jpg
+moss:
+  name: Sean Moss
+  web: https://seankmoss.bitbucket.io/
+  affiliation: University of Birmingham
+  img: moss.jpg
 north:
   name: Paige North
   affiliation: Utrecht University

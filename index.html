@@ -106,18 +106,20 @@
 
       <div class="invited-speakers">
         {%- for speaker in invited -%}
+        {%- assign person = people[speaker.name] -%}
+        {%- assign talk = talks[speaker.name] -%}
           <div class="invited-speaker">
-            <img src="static/{{ speaker.img }}" width="230px" alt="{{ speaker.name }}" />
+            <img src="static/{{ person.img }}" width="230px" alt="{{ person.name }}" />
             <div class="name">
-              {%- if speaker.url -%}
-                <a href="{{ speaker.url }}">
+              {%- if person.web -%}
+                <a href="{{ person.url }}">
               {% endif %}
-              {{ speaker.name }}
-              {%- if speaker.url -%}
+              {{ person.name }}
+              {%- if person.web -%}
                   </a>
               {% endif %}
             </div>
-            <div class="affiliation">{{ speaker.affiliation }}</div>
+            <div class="affiliation">{{ person.affiliation }}</div>
           </div>
         {%- endfor -%}
       </div>

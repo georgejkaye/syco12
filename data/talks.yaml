@@ -5,7 +5,7 @@ backens:
     - name: Miriam Backens
       presenter: true
 moss:
-  title: TBA
+  title: The Markov category of a random graph
   invited: true
   authors:
     - name: Sean Moss
