@@ -54,6 +54,7 @@ sergeant-pethuis:
   title: "Compositional statistical mechanics, entropy and variational inference"
   authors:
     - name: Grégoire Sergeant-Perthuis
+      presenter: true
   abstract: |
     In this document, we aim to gather various results related to a compositional/categorical approach to rigorous Statistical Mechanics. Rigorous Statistical Mechanics is centered on the mathematical study of statistical systems. Central concepts in this field have a natural expression in terms of diagrams in a category that couples measurable maps and Markov kernels. We showed that statistical systems are particular representations of partially ordered sets (posets), that we call -specifications, and expressed their phases, i.e., Gibbs measures, as invariants of these representations. It opens the way to the use of homological algebra to compute phases of statistical systems. Two central results of rigorous Statistical Mechanics are, firstly, the characterization of extreme Gibbs measure as it relates to the zero–one law for extreme Gibbs measures, and, secondly, their variational principle which states that for translation invariant Hamiltonians, Gibbs measures are the minima of the Gibbs free energy. We showed how the characterization of extreme Gibbs measures extends to -specifications; we proposed an Entropy functional for -specifications and gave a message-passing algorithm, that generalized the belief propagation algorithm of graphical models (see O. Peltre's SYCO 8 talk), to minimize variations free energy.
 corbyn:
