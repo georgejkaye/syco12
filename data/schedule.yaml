@@ -53,7 +53,7 @@ tuesday:
     talk: bonchi
     time: 11:30-12:00
   - type: talk
-    talk: gavranovic
+    talk: donato
     time: 12:00-12:30
   - type: talk
     talk: corbyn
@@ -65,7 +65,7 @@ tuesday:
     talk: massacrier
     time: 14:00-14:30
   - type: talk
-    talk: donato
+    talk: gavranovic
     time: 14:30-15:00
   - type: talk
     talk: levy
