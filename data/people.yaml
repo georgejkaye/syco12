@@ -51,6 +51,11 @@ levy:
   web: https://www.cs.bham.ac.uk/~pbl/
   affiliation: University of Birmingham
   img: levy.jpg
+markakis:
+  name: Ioannis Markakis
+  web: https://jmarkakis.github.io/
+  affiliation: University of Cambridge
+  img: markakis.jpg
 mimram:
   name: Samuel Mimram
   web: http://www.lix.polytechnique.fr/Labo/Samuel.Mimram//
