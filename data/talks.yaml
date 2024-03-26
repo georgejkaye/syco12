@@ -120,7 +120,7 @@ forsman:
 
     Let C be a (cartesian/symmetric) monoidal category and let \(E \cup \phi\) be a (cartesian/symmetric) monoidal theory of universal algebra. Then
 
-    \(E \vDash \phi\) in \(\mathbf{Set}\) implies that \(E \vDash \phi\) ϕ in \(C\)
+    \(E \vDash \phi\) in \(\mathbf{Set}\) implies that \(E \vDash \phi\) in \(C\)
 
     This meta-theorem makes a modest connection from algebraic structures in \(\mathbf{Set}\) to monoidally enriched algebraic structures.
 levy:
