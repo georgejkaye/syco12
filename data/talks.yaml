@@ -143,6 +143,7 @@ gavranovic:
   title: "Categorical Deep Learning: An Algebraic Theory of Architectures"
   authors:
     - name: Bruno Gavranović
+      presenter: true
     - name: Paul Lessard
     - name: Andrew Joseph Dudzik
     - name: Tamara von Glehn
