@@ -26,6 +26,7 @@ bonchi:
   authors:
     - name: Filippo Bonchi
     - name: Alessandro Di Giorgio
+      presenter: true
     - name: Nathan Haydon
     - name: Pawel Sobocinski
   abstract: |
@@ -34,6 +35,7 @@ kharoof:
   title: "Homotopical characterization of strong contextuality"
   authors:
     - name: Aziz Kharoof
+      presenter: true
   abstract:
      Simplicial distributions introduced in the paper “Simplicial quantum contextuality” provide topological and categorical approaches to the study of contextuality for collections of probability distributions. Strong contextuality is a special case of contextuality that help to find contextual vertices and there are models coming from quantum mechanics which are strongly contextual. We give a novel homotopical characterization of strongly contextual simplicial distributions with binary outcomes, specifically those defined on the cone of a 1-dimensional space. To prove this result, we associate to a simplicial distribution a category whose morphisms correspond to conditional probability distributions. The composition in this category is induced by the 0-order composition of the compository (in the sense of the paper “Compositories and gleaves”) that we get by applying the distribution monad on the nerve of a small category. The result shows that the strong contextuality depends only on loops in the associated category.
 donato:
@@ -48,6 +50,7 @@ breuvart:
   authors:
     - name: Flavien Breuvart
     - name: Quan Long
+      presenter: true
     - name: Vladimir Zamdzhiev
   abstract: |
      We introduce the notion of “centre” for pomonoid-graded strong monads which generalizes some previous work that describes the centre of (not graded) strong monads. We show that, whenever the centre exists, this determines a pomonoid-graded commutative submonad of the original one. We also discuss how this relates to duoidally-graded strong monads.
@@ -90,6 +93,7 @@ wrigley:
   title: "A topos-theoretic framework for reconstruction theorems in model theory"
   authors:
     - name: Joshua Wrigley
+      presenter: true
   abstract: |
     A classical result in model theory [1] asserts that an atomic/countably categorical theory can be reconstructed, up to bi-interpretability, from the topological automorphism group of its unique countable model. Recent work by Ben Yaacov has shown that the atomicity/countable categoricity assumption can be dropped if, instead of a topological group, one uses a topological groupoid. However, the groupoid considered in [2] is not a groupoid of models for the theory.
 
@@ -114,6 +118,7 @@ forsman:
   title: "Monoidal Meta-Theorem"
   authors:
     - name: David Forsman
+      presenter: true
   abstract: |
     Some proofs of equations in (cartesian/symmetric) monoidal categories reduce to proving them in the cartesian monoidal category of sets. In the setting of cartesian monoidal categories, this is very well known. As a corollary, the Eckmann-Hilton argument generalizes from sets to all symmetric monoidal categories. We define the theories of multi-sorted universal algebra that can have interpretations in all monoidal, symmetric monoidal and cartesian monoidal categories, respectively. For these theories, we construct sound syntactic deduction systems, which are complete in the cartesian monoidal category of sets. This yields the meta-theorem:
 
@@ -148,5 +153,6 @@ lisitsa:
   title: "Automated Reasoning for Tangles with Quantum Verification Applications"
   authors:
     - name: Alexei Lisitsa
+      presenter: true
     - name: Andrew Fish
   abstract: "We demonstrate utility of generic automated reasoning (AR) methods in the computational topology domain, evidencing the benefit of the use of existing AR machinery within the domain on the one hand, whilst providing a pathway into a rich playground with potential to drive future AR requirements. We also contribute towards quantum software verification, via a recent proposal to use tangles as a representation of a certain class of quantum programs. The general methodology is to transform tasks of equivalence of topological objects (tangles) into equivalence of algebraic objects (pointed quandles) and those in turn translate into AR tasks. To enhance trust in automated checks, this can be followed by interpretation of AR outputs as human-readable output, either in symbolic algebraic form suitable for domain experts or ideally in visual topological form, potentially suitable for all. We provide formalisation via an appropriate class of labelled tangles (suitable for Quantum Verification) with associated algebraic invariants (pointed involutory quandles) and translate equivalence checking of these invariants to equational reasoning tasks that are realised by Prover 9 and Prover X. Furthermore, subsequent to automated proof creation for quantum verification (QV) examples, we demonstrate manual extraction of visual proof rules and visual equivalence, utilising proof graphs produced by Prover X as a bridging step, progressing towards progressing towards the automation of human-readable visual proofs."
