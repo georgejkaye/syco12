@@ -67,6 +67,7 @@ corbyn:
     - name: Nathan Corbyn
     - name: Lukas Heidemann
     - name: Nick Hu
+      presenter: true
     - name: Chiara Sarti
     - name: Calin Tataru
     - name: Jamie Vicary
