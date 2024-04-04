@@ -382,10 +382,10 @@
               {%- if attendee.website -%}
                 <a href="//{{ attendee.website }}" title="{{ attendee.name }}'s personal website">
               {%- endif -%}
-                {{ attendee.name }}{%- if attendee.institution -%}, {{ attendee.institution }}{%- endif -%}
+                {{ attendee.name }}
               {%- if attendee.website -%}
                 </a>
-              {%- endif -%}
+              {%- endif -%}{%- if attendee.institution -%}, {{ attendee.institution }}{%- endif -%}
               {%- if attendee.inperson -%}
               *
               {%- endif -%}
