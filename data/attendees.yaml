@@ -55,13 +55,9 @@
   name: David Forsman
   website: null
 - inperson: false
-  institution: Universidad Politécnica de Catalunya
-  name: Elena Isasi Theus
-  website: null
-- inperson: false
   institution: Universitat Politécnica de Catalunya
   name: Elena Isasi Theus
-  website: '-'
+  website: null
 - inperson: false
   institution: Ecole Polytechnique
   name: Elies Harington
