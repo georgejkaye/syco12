@@ -6,7 +6,7 @@
   done: true
 - name: Registration deadline
   date: Wednesday 03 April 2024
-  done: false
+  done: true
 - name: Symposium dates
   date: Monday 15 April - Tuesday 16 April
   done: false
