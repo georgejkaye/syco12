@@ -1,15 +1,15 @@
 - inperson: true
   institution: University of Edinburgh
   name: Adrián Doña Mateo
-  website: https://www.maths.ed.ac.uk/~adona/
+  website: www.maths.ed.ac.uk/~adona/
 - inperson: true
   institution: University College London
   name: Alessandro Di Giorgio
-  website: https://alessandrodgr.github.io
+  website: alessandrodgr.github.io
 - inperson: true
   institution: University of Liverpool
   name: Alexei Lisitsa
-  website: https://www.csc.liv.ac.uk/~alexei/
+  website: www.csc.liv.ac.uk/~alexei/
 - inperson: true
   institution: Vrije Universiteit Amsterdam
   name: Aloïs Rosset
@@ -45,7 +45,7 @@
 - inperson: true
   institution: University of Cambridge
   name: Calin Tataru
-  website: https://www.cst.cam.ac.uk/people/ct608
+  website: www.cst.cam.ac.uk/people/ct608
 - inperson: true
   institution: UCL
   name: Carmen Constantin
@@ -61,11 +61,11 @@
 - inperson: false
   institution: Ecole Polytechnique
   name: Elies Harington
-  website: http://www.lix.polytechnique.fr/Labo/Elies.HARINGTON/
+  website: www.lix.polytechnique.fr/Labo/Elies.HARINGTON/
 - inperson: true
   institution: OrbitMines
   name: Fadi Shawki
-  website: https://orbitmines.com
+  website: orbitmines.com
 - inperson: true
   institution: University of Birmingham
   name: George Kaye
@@ -77,7 +77,7 @@
 - inperson: true
   institution: Sorbonne Université
   name: Grégoire Sergeant-Perthuis
-  website: http://www.gregoiresergeant-perthuis.com/research.html
+  website: www.gregoiresergeant-perthuis.com/research.html
 - inperson: true
   institution: The University of Sheffield
   name: Harsh Beohar
@@ -85,15 +85,15 @@
 - inperson: false
   institution: University of São Paulo
   name: Heitor Baldo
-  website: https://heitorbaldo.github.io
+  website: heitorbaldo.github.io
 - inperson: true
   institution: University of Cambridge
   name: Ioannis Markakis
-  website: https://jmarkakis.github.io/
+  website: jmarkakis.github.io/
 - inperson: true
   institution: University of Oxford
   name: Jingjie Yang
-  website: https://www.cs.ox.ac.uk/people/jingjie.yang/
+  website: www.cs.ox.ac.uk/people/jingjie.yang/
 - inperson: true
   institution: null
   name: Joshua Wrigley
@@ -105,31 +105,31 @@
 - inperson: true
   institution: University College London
   name: Leo Lobski
-  website: https://leolob.ski/
+  website: leolob.ski/
 - inperson: false
   institution: IT University of Copenhagen
   name: Maaike Zwart
-  website: https://maaikezwart.com/
+  website: maaikezwart.com/
 - inperson: false
   institution: University of Sussex
   name: Marc Thatcher
-  website: https://marcthatcher.github.io/
+  website: marcthatcher.github.io/
 - inperson: true
   institution: University of Birmingham
   name: Marco Abbadini
-  website: https://marcoabbadini-uni.github.io/
+  website: marcoabbadini-uni.github.io/
 - inperson: true
   institution: Inria
   name: Miriam Backens
-  website: https://members.loria.fr/MBackens/
+  website: members.loria.fr/MBackens/
 - inperson: false
   institution: LIPN
   name: Morgan Rogers
-  website: https://lipn.univ-paris13.fr/~rogers/
+  website: lipn.univ-paris13.fr/~rogers/
 - inperson: false
   institution: Tallinn University of Technology
   name: Nathanael Arkor
-  website: https://arkor.co/
+  website: arkor.co/
 - inperson: false
   institution: University of Manchester
   name: Nayan Rajesh
@@ -153,7 +153,7 @@
 - inperson: true
   institution: null
   name: Pablo Donato
-  website: http://www.lix.polytechnique.fr/Labo/Pablo.DONATO/
+  website: www.lix.polytechnique.fr/Labo/Pablo.DONATO/
 - inperson: true
   institution: University of Birmingham
   name: Paul Blain Levy
@@ -173,7 +173,7 @@
 - inperson: false
   institution: Georgia Tech
   name: Ramneet Singh
-  website: https://ramneet-singh.netlify.app
+  website: ramneet-singh.netlify.app
 - inperson: true
   institution: University of Oxford
   name: Razin Shaikh
@@ -181,11 +181,11 @@
 - inperson: false
   institution: null
   name: Rich Hilliard
-  website: https://www.mit.edu/~richh
+  website: www.mit.edu/~richh
 - inperson: true
   institution: University of Birmingham
   name: Sam Speight
-  website: https://slspeight.github.io/
+  website: slspeight.github.io/
 - inperson: true
   institution: University of Nottingham
   name: Samuel Knutsen
@@ -193,7 +193,7 @@
 - inperson: true
   institution: University of Birmingham
   name: Sean Moss
-  website: https://seankmoss.bitbucket.io/
+  website: seankmoss.bitbucket.io/
 - inperson: true
   institution: Université Claude Bernard Lyon 1
   name: Tanguy Massacrier
@@ -209,7 +209,7 @@
 - inperson: true
   institution: University of Birmingham
   name: Todd Ambridge
-  website: http://cs.bham.ac.uk/~txw467
+  website: cs.bham.ac.uk/~txw467
 - inperson: true
   institution: University of Birmingham
   name: Tommy McElvanney
@@ -217,7 +217,7 @@
 - inperson: false
   institution: Topos Institute
   name: Valeria de Paiva
-  website: http://vcvpaiva.github.io/
+  website: vcvpaiva.github.io/
 - inperson: true
   institution: University of Birmingham
   name: Vincent Rahli
@@ -233,4 +233,4 @@
 - inperson: true
   institution: null
   name: Zanzi Mihejevs
-  website: https://zanzix.github.io/
+  website: zanzix.github.io/
