@@ -1,2 +1,240 @@
-- name: George Kaye
+- inperson: true
+  institution: University of Edinburgh
+  name: Adrián Doña Mateo
+  website: https://www.maths.ed.ac.uk/~adona/
+- inperson: true
+  institution: University College London
+  name: Alessandro Di Giorgio
+  website: https://alessandrodgr.github.io
+- inperson: true
+  institution: University of Liverpool
+  name: Alexei Lisitsa
+  website: https://www.csc.liv.ac.uk/~alexei/
+- inperson: true
+  institution: Vrije Universiteit Amsterdam
+  name: Aloïs Rosset
+  website: null
+- inperson: false
+  institution: null
+  name: Alöna Litovinskaia
+  website: null
+- inperson: true
+  institution: Oxford
+  name: Amin Karamlou
+  website: aminkaramlou.github.io
+- inperson: true
+  institution: University of Haifa
+  name: Aziz Kharoof
+  website: null
+- inperson: true
+  institution: University of Oxford
+  name: Benjamin Rodatz
+  website: null
+- inperson: false
+  institution: Universidad Nacional de Colombia
+  name: Brayan Escobar
+  website: null
+- inperson: true
+  institution: Symbolica
+  name: Bruno Gavranović
+  website: www.brunogavranovic.com
+- inperson: true
   institution: University of Birmingham
+  name: Bruno da Rocha Paiva
+  website: brunorochapaiva.github.io
+- inperson: true
+  institution: University of Cambridge
+  name: Calin Tataru
+  website: https://www.cst.cam.ac.uk/people/ct608
+- inperson: true
+  institution: UCL
+  name: Carmen Constantin
+  website: null
+- inperson: true
+  institution: Université catholique de Louvain
+  name: David Forsman
+  website: null
+- inperson: false
+  institution: Universidad Politécnica de Catalunya
+  name: Elena Isasi Theus
+  website: null
+- inperson: false
+  institution: Universitat Politécnica de Catalunya
+  name: Elena Isasi Theus
+  website: '-'
+- inperson: false
+  institution: Ecole Polytechnique
+  name: Elies Harington
+  website: http://www.lix.polytechnique.fr/Labo/Elies.HARINGTON/
+- inperson: true
+  institution: OrbitMines
+  name: Fadi Shawki
+  website: https://orbitmines.com
+- inperson: true
+  institution: University of Birmingham
+  name: George Kaye
+  website: georgejkaye.com
+- inperson: false
+  institution: University of Edinburgh
+  name: Gordon Plotkin
+  website: null
+- inperson: true
+  institution: Sorbonne Université
+  name: Grégoire Sergeant-Perthuis
+  website: http://www.gregoiresergeant-perthuis.com/research.html
+- inperson: true
+  institution: The University of Sheffield
+  name: Harsh Beohar
+  website: null
+- inperson: false
+  institution: University of São Paulo
+  name: Heitor Baldo
+  website: https://heitorbaldo.github.io
+- inperson: true
+  institution: University of Cambridge
+  name: Ioannis Markakis
+  website: https://jmarkakis.github.io/
+- inperson: true
+  institution: University of Oxford
+  name: Jingjie Yang
+  website: https://www.cs.ox.ac.uk/people/jingjie.yang/
+- inperson: true
+  institution: null
+  name: Joshua Wrigley
+  website: jlwrigley.github.io/
+- inperson: true
+  institution: University of Strathclyde / CyberCat Institute
+  name: Jules Hedges
+  website: julesh.com
+- inperson: true
+  institution: University College London
+  name: Leo Lobski
+  website: https://leolob.ski/
+- inperson: false
+  institution: IT University of Copenhagen
+  name: Maaike Zwart
+  website: https://maaikezwart.com/
+- inperson: false
+  institution: University of Sussex
+  name: Marc Thatcher
+  website: https://marcthatcher.github.io/
+- inperson: true
+  institution: University of Birmingham
+  name: Marco Abbadini
+  website: https://marcoabbadini-uni.github.io/
+- inperson: true
+  institution: Inria
+  name: Miriam Backens
+  website: https://members.loria.fr/MBackens/
+- inperson: false
+  institution: LIPN
+  name: Morgan Rogers
+  website: https://lipn.univ-paris13.fr/~rogers/
+- inperson: false
+  institution: Tallinn University of Technology
+  name: Nathanael Arkor
+  website: https://arkor.co/
+- inperson: false
+  institution: University of Manchester
+  name: Nayan Rajesh
+  website: null
+- inperson: true
+  institution: University of Oxford
+  name: Nick Hu
+  website: nickx.hu
+- inperson: false
+  institution: null
+  name: Nigel Burke
+  website: null
+- inperson: false
+  institution: UMD
+  name: Noah Chrein
+  website: nchrein.github.io
+- inperson: true
+  institution: University of Birmingham
+  name: Paaras Padhiar
+  website: null
+- inperson: true
+  institution: null
+  name: Pablo Donato
+  website: http://www.lix.polytechnique.fr/Labo/Pablo.DONATO/
+- inperson: true
+  institution: University of Birmingham
+  name: Paul Blain Levy
+  website: www.cs.bham.ac.uk/~pbl
+- inperson: true
+  institution: U of Birmingham (honorary)
+  name: Paul Taylor
+  website: www.paultaylor.eu
+- inperson: false
+  institution: Institut Polytechnique de Paris
+  name: Poyraz Yılan
+  website: null
+- inperson: true
+  institution: ENS Paris Saclay
+  name: Quan Long
+  website: www.long.direct
+- inperson: false
+  institution: Georgia Tech
+  name: Ramneet Singh
+  website: https://ramneet-singh.netlify.app
+- inperson: true
+  institution: University of Oxford
+  name: Razin Shaikh
+  website: null
+- inperson: false
+  institution: null
+  name: Rich Hilliard
+  website: https://www.mit.edu/~richh
+- inperson: true
+  institution: University of Birmingham
+  name: Sam Speight
+  website: https://slspeight.github.io/
+- inperson: true
+  institution: University of Nottingham
+  name: Samuel Knutsen
+  website: null
+- inperson: true
+  institution: University of Birmingham
+  name: Sean Moss
+  website: https://seankmoss.bitbucket.io/
+- inperson: true
+  institution: Université Claude Bernard Lyon 1
+  name: Tanguy Massacrier
+  website: null
+- inperson: true
+  institution: University of Cambridge
+  name: Thibaut Benjamin
+  website: thibautbenjamin.github.io
+- inperson: true
+  institution: University of Birmingham
+  name: Till Rampe
+  website: null
+- inperson: true
+  institution: University of Birmingham
+  name: Todd Ambridge
+  website: http://cs.bham.ac.uk/~txw467
+- inperson: true
+  institution: University of Birmingham
+  name: Tommy McElvanney
+  website: null
+- inperson: false
+  institution: Topos Institute
+  name: Valeria de Paiva
+  website: http://vcvpaiva.github.io/
+- inperson: true
+  institution: University of Birmingham
+  name: Vincent Rahli
+  website: null
+- inperson: true
+  institution: University of Cambridge
+  name: Wilf
+  website: null
+- inperson: false
+  institution: Universität Stuttgart
+  name: Yiqi Xu
+  website: null
+- inperson: true
+  institution: null
+  name: Zanzi Mihejevs
+  website: https://zanzix.github.io/
