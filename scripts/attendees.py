@@ -7,12 +7,15 @@ from dataclasses import asdict, dataclass
 import yaml
 
 
-if len(sys.argv) != 3:
-    print(f"Usage: python {sys.argv[0]} <registration csv> <output yaml>")
+if len(sys.argv) != 4:
+    print(
+        f"Usage: python {sys.argv[0]} <registration csv> <website output yaml> <namebadges output yaml"
+    )
     exit(1)
 
 registration_csv = sys.argv[1]
-output_file = sys.argv[2]
+website_output_file = sys.argv[2]
+namebadge_output_file = sys.argv[3]
 
 
 @dataclass
@@ -37,6 +40,13 @@ class PublicRegistration:
     inperson: bool
 
 
+@dataclass
+class Namebadge:
+    name: str
+    institution: Optional[str]
+    pronouns: Optional[str]
+
+
 registrations: list[Registration] = []
 
 
@@ -57,11 +67,11 @@ with open(registration_csv, "r") as f:
     for row in reader:
         registrations.append(
             Registration(
-                row[1],
-                string_to_optional(row[2]),
-                string_to_optional(row[3]),
-                row[4],
-                string_to_optional(row[10]),
+                row[1].strip(),
+                string_to_optional(row[2].strip()),
+                string_to_optional(row[3].strip()),
+                row[4].strip(),
+                string_to_optional(row[10].strip()),
                 yesno_to_bool(row[5]),
                 yesno_to_bool(row[6]),
                 yesno_to_bool(row[7]),
@@ -71,6 +81,7 @@ with open(registration_csv, "r") as f:
         )
 
 public_registrations: list[PublicRegistration] = []
+namebadges: list[Namebadge] = []
 
 for registration in registrations:
     if registration.name_on_website:
@@ -82,9 +93,23 @@ for registration in registrations:
                 registration.attending_in_person,
             )
         )
+    if registration.attending_in_person:
+        namebadges.append(
+            Namebadge(
+                registration.name, registration.institution, registration.pronouns
+            )
+        )
 
 sorted_public_registrations = sorted(public_registrations, key=lambda r: r.name)
-sorted_public_registration_dicts = [asdict(registration) for registration in sorted_public_registrations]
+sorted_public_registration_dicts = [
+    asdict(registration) for registration in sorted_public_registrations
+]
+namebadge_dicts = [
+    asdict(namebadge) for namebadge in namebadges
+]
 
-with open(output_file, "w") as f:
+with open(website_output_file, "w") as f:
     yaml.dump(sorted_public_registration_dicts, f, encoding="utf8", allow_unicode=True)
+
+with open(namebadge_output_file, "w") as f:
+    yaml.dump(namebadge_dicts, f, encoding="utf8", allow_unicode=True)
