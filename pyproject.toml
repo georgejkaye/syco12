@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+description = "Scripts for the SYCO 12 website"
+authors = ["George Kaye <georgejkaye@gmail.com>"]
+license = "GPL-v3.0-or-later"
+readme = "README.md"
+packages = [{include = "scripts"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0.1"
+types-pyyaml = "^6.0.12.20240311"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
