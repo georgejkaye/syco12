@@ -375,23 +375,23 @@
 
       <p>Attendees marked with an asterisk * will attend physically.</p>
 
-      <div>
-        <ul>
-          {%- for attendee in attendees -%}
-            <li>
-              {%- if attendee.website -%}
-                <a href="//{{ attendee.website }}" title="{{ attendee.name }}'s personal website">
-              {%- endif -%}
-                {{ attendee.name }}
-              {%- if attendee.website -%}
-                </a>
-              {%- endif -%}{%- if attendee.institution -%}, {{ attendee.institution }}{%- endif -%}
-              {%- if attendee.inperson -%}
+    <div>
+      <ul>
+        {%- for attendee in attendees -%}
+          <li>
+            {%- if attendee.website -%}
+              <a href="//{{ attendee.website }}" title="{{ attendee.name }}'s personal website">
+            {%- endif -%}
+              {{ attendee.name }}
+            {%- if attendee.website -%}
+              </a>
+            {%- endif -%}{%- if attendee.institution -%}, {{ attendee.institution }}{%- endif -%}
+            {%- if attendee.inperson -%}
               *
-              {%- endif -%}
-            </li>
-          {%- endfor -%}
-        </ul>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
       </div>
 
       <h2 id="lo">Local organizers</h2>
