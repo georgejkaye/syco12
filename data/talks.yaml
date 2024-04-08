@@ -40,6 +40,7 @@ kharoof:
   authors:
     - name: Aziz Kharoof
       presenter: true
+    - name: Cihan Okay
   abstract:
      Simplicial distributions introduced in the paper “Simplicial quantum contextuality” provide topological and categorical approaches to the study of contextuality for collections of probability distributions. Strong contextuality is a special case of contextuality that help to find contextual vertices and there are models coming from quantum mechanics which are strongly contextual. We give a novel homotopical characterization of strongly contextual simplicial distributions with binary outcomes, specifically those defined on the cone of a 1-dimensional space. To prove this result, we associate to a simplicial distribution a category whose morphisms correspond to conditional probability distributions. The composition in this category is induced by the 0-order composition of the compository (in the sense of the paper “Compositories and gleaves”) that we get by applying the distribution monad on the nerve of a small category. The result shows that the strong contextuality depends only on loops in the associated category.
 donato:
