@@ -25,7 +25,8 @@
 
     <!-- To automatically render math in text elements, include the auto-render extension: -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
+        onload="renderMathInElement(document.body);">
+    </script>
   </head>
   <body>
     <div id="content">
@@ -201,6 +202,12 @@
                 <div><b>{{ item.name | makeUppercase }}</b></div>
               </div>
             </div>
+            {%- elsif item.type == "session" -%}
+              {%- if item.chair -%}
+                <div class="schedule-item schedule-session">
+                    Chair: {{ item.chair }}
+                </div>
+              {%- endif -%}
             {%- elsif item.type == "talk" -%}
             {%- assign talk = talks[item.talk] -%}
             <div class="schedule-item schedule-talk">
