@@ -1,5 +1,5 @@
 \documentclass[a4paper,10pt]{letter}
-\usepackage[freepin,crossmark]{ticket}
+\usepackage[freepin,emptycrossmark]{ticket}
 \usepackage{graphicx}
 \usepackage{tgpagella}
 \usepackage{svg}
@@ -17,6 +17,8 @@
 \newcommand*{\position}{0}
 \newcommand*{\add}[2]{\the\numexpr#1+#2\relax}
 
+\hoffset=-15mm
+\voffset=-15mm
 \ticketSize{85}{55}
 
 \newcommand{\nameline}[1]{\makebox[0mm]{\bfseries\Large #1}}
