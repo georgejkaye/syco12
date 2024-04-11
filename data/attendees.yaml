@@ -22,7 +22,7 @@
   institution: Oxford
   name: Amin Karamlou
   website: aminkaramlou.github.io
-- inperson: true
+- inperson: false
   institution: University of Haifa
   name: Aziz Kharoof
   website: null
@@ -54,8 +54,12 @@
   institution: Université catholique de Louvain
   name: David Forsman
   website: null
+- inperson: true
+  institution: University of Birmingham
+  name: Dhurim Cakiqi
+  website: null
 - inperson: false
-  institution: Universitat Politécnica de Catalunya
+  institution: Universidad Politécnica de Catalunya
   name: Elena Isasi Theus
   website: null
 - inperson: false
@@ -118,6 +122,10 @@
   institution: University of Birmingham
   name: Marco Abbadini
   website: marcoabbadini-uni.github.io/
+- inperson: false
+  institution: University College London
+  name: Mateo Torres-Ruiz
+  website: null
 - inperson: true
   institution: Inria
   name: Miriam Backens
@@ -126,6 +134,14 @@
   institution: LIPN
   name: Morgan Rogers
   website: lipn.univ-paris13.fr/~rogers/
+- inperson: false
+  institution: University of Oxford
+  name: Nathan Corbyn
+  website: nathancorbyn.com
+- inperson: false
+  institution: TalTech
+  name: Nathan Haydon
+  website: null
 - inperson: false
   institution: Tallinn University of Technology
   name: Nathanael Arkor
@@ -162,6 +178,10 @@
   institution: U of Birmingham (honorary)
   name: Paul Taylor
   website: www.paultaylor.eu
+- inperson: false
+  institution: ENS Paris
+  name: Paul Wang
+  website: null
 - inperson: false
   institution: Institut Polytechnique de Paris
   name: Poyraz Yılan
