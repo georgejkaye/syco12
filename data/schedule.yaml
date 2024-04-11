@@ -30,7 +30,7 @@ monday:
     name: break
     time: 15:00-15:30
   - type: session
-    chair: Paul Levy
+    chair: Paul Blain Levy
   - type: talk
     talk: forsman
     time: 15:30-16:00
