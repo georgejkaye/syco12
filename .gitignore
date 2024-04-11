@@ -1,2 +1,12 @@
 node_modules
 _site
+people.tex
+__pycache__
+.vscode
+*.aux
+*.log
+*.pdf
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+svg-inkscape

@@ -1,0 +1,78 @@
+\documentclass[a4paper,10pt]{letter}
+\usepackage[freepin,crossmark]{ticket}
+\usepackage{graphicx}
+\usepackage{tgpagella}
+\usepackage{svg}
+\usepackage{ifthen}
+
+% make your default ticket. \ticketdefault is somewhat like a background
+\renewcommand{\ticketdefault}{%
+%   \put(30, 5){\includesvg[width=12mm]{../static/logo.svg}}
+%   \put( 5, 13){\line(1,0){60}}
+%   \put( 7, 10){\small SYCO 12}
+%   \put( 7,  7){\small Birmingham, UK}
+%   \put( 7,  4){\small 15-16 April 2024}
+}
+
+\newcommand*{\position}{0}
+\newcommand*{\add}[2]{\the\numexpr#1+#2\relax}
+
+\ticketSize{85}{55}
+
+\newcommand{\nameline}[1]{\makebox[0mm]{\bfseries\Large #1}}
+\newcommand{\pronounsline}[1]{\makebox[0mm]{\small (#1)}}
+\newcommand{\institutionline}[2]{\makebox[0mm]{\bfseries\large #1}}
+
+% now what do you like to put in your ticket
+\newcommand{\badge}[4]{\ticket{%
+    \ifthenelse{\equal{#2}{}}{%
+        \ifthenelse{\equal{#3}{}}{%
+            % no pronouns or institution
+            \put(42.5,30){\nameline{#1}}%
+            \put(38,10){\includesvg[width=10mm]{../static/logo.svg}}%
+        }{%
+            \ifthenelse{\equal{#4}{}}{%
+                % no pronouns, one institution
+                \put(42.5,38){\nameline{#1}}%
+                \put(42.5,32){\institutionline{#3}}%
+                \put(38,14){\includesvg[width=10mm]{../static/logo.svg}}%
+            }{%
+                % no pronouns, two institutions
+                \put(42.5,42){\nameline{#1}}%
+                \put(42.5,34){\institutionline{#3}}%
+                \put(42.5,28){\institutionline{#4}}%
+                \put(38,10){\includesvg[width=10mm]{../static/logo.svg}}%
+            }%
+        }%
+    }{%
+        \ifthenelse{\equal{#3}{}}{%
+            % pronouns, no institution
+            \put(42.5,36){\nameline{#1}}
+            \put(42.5,30){\pronounsline{#2}}%
+            \put(38,12){\includesvg[width=10mm]{../static/logo.svg}}%
+        }{%
+            \ifthenelse{\equal{#4}{}}{%
+                % pronouns, one institution
+                \put(42.5,38){\nameline{#1}}
+                \put(42.5,32){\pronounsline{#2}}%
+                \put(42.5,26){\institutionline{#3}}%
+                \put(38,10){\includesvg[width=10mm]{../static/logo.svg}}%
+            }{%
+                % pronouns, two institutions
+                \put(42.5,42){\nameline{#1}}
+                \put(42.5,36){\pronounsline{#2}}%
+                \put(42.5,28){\institutionline{#3}}%
+                \put(42.5,22){\institutionline{#4}}%
+                \put(38,6){\includesvg[width=10mm]{../static/logo.svg}}%
+            }%
+        }%
+    }%
+}}
+
+
+%% the pins for the partipiciants ... ;-)
+%% you can generate this part from a database!
+\begin{document}
+
+    \input{people}
+\end{document}

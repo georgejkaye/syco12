@@ -2,14 +2,16 @@ import csv
 import sys
 
 from typing import Optional
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 
 import yaml
+
+from scripts.structs import Namebadge, PublicRegistration, Registration
 
 
 if len(sys.argv) != 4:
     print(
-        f"Usage: python {sys.argv[0]} <registration csv> <website output yaml> <namebadges output yaml"
+        f"Usage: python {sys.argv[0]} <registration csv> <website output yaml> <namebadges output yaml>"
     )
     exit(1)
 
@@ -18,37 +20,7 @@ website_output_file = sys.argv[2]
 namebadge_output_file = sys.argv[3]
 
 
-@dataclass
-class Registration:
-    name: str
-    pronouns: Optional[str]
-    institution: Optional[str]
-    email: str
-    website: Optional[str]
-    attending_in_person: bool
-    name_on_website: bool
-    attending_pub: bool
-    attending_dinner: bool
-    dietary: str
-
-
-@dataclass
-class PublicRegistration:
-    name: str
-    institution: Optional[str]
-    website: Optional[str]
-    inperson: bool
-
-
-@dataclass
-class Namebadge:
-    name: str
-    institution: Optional[str]
-    pronouns: Optional[str]
-
-
 registrations: list[Registration] = []
-
 
 def yesno_to_bool(resp: str) -> bool:
     return resp == "Yes"
