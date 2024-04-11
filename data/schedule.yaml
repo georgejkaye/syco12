@@ -16,6 +16,7 @@ monday:
     name: lunch
     time: 12:30-13:30
   - type: session
+    chair: Paul Taylor
   - type: talk
     talk: breuvart
     time: 13:30-14:00
@@ -29,6 +30,7 @@ monday:
     name: break
     time: 15:00-15:30
   - type: session
+    chair: Paul Levy
   - type: talk
     talk: forsman
     time: 15:30-16:00
@@ -45,6 +47,7 @@ tuesday:
   name: Tuesday 16 April
   schedule:
   - type: session
+    chair: Sam Speight
   - type: talk
     talk: moss
     time: 09:30-10:30
@@ -55,6 +58,7 @@ tuesday:
     name: break
     time: 11:00-11:30
   - type: session
+    chair: Miriam Backens
   - type: talk
     talk: bonchi
     time: 11:30-12:00
