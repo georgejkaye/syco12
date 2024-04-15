@@ -72,6 +72,15 @@ north:
   affiliation: Utrecht University
   web: https://paigenorth.github.io/
   img: north.jpg
+paiva:
+  name: Bruno da Rocha Paiva
+  affiliation: University of Birmingham
+  web: https://brunorochapaiva.github.io/
+  img: paiva.jpg
+padhiar:
+  name: Paaras Padhiar
+  affiliation: University of Birmingham
+  img: padhiar.jpg
 paoli:
   name: Simona Paoli
   affiliation: University of Aberdeen
