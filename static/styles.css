@@ -163,6 +163,9 @@ h2 {
 	outline: inherit;
   text-decoration: underline;
   color: blue;
+}
+
+.talk-button {
   margin-left: 5px;
 }
 
