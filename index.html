@@ -29,8 +29,8 @@
     </script>
   </head>
   <body>
-    <div id="content">
-      <div id="header">
+    <div class="content">
+      <div class="header">
         <div>
           <img id="logo" src="./static/logo.svg" alt="SYCO logo" />
         </div>
@@ -125,32 +125,6 @@
         {%- endfor -%}
       </div>
 
-      <h2 id="dates">Important dates</h2>
-
-      <p>
-        All deadlines are 23:59
-        <a href="https://www.timeanddate.com/time/zones/aoe">anywhere-on-earth</a>
-        on the given dates.
-      </p>
-
-      <ul>
-          {%- for date in dates -%}
-            <li>
-              {%- if date.done -%}<s>{%- endif -%}
-                <span class="event">
-                  {{ date.name }}:
-                </span>
-                <span class="date">
-                  {{ date.date }}
-                </span>
-              {%- if date.done -%}</s>{%- endif -%}
-            </li>
-          {%- endfor -%}
-      </ul>
-
-      The important dates can be found in the
-      <a href="https://calendar.google.com/calendar/ical/1082bd9044e887fc3095c4f69f352131976200a65678dbf6744c577e71762b47%40group.calendar.google.com/public/basic.ics">SYCO 12 calendar</a>.
-
       <h2 id="online">In-person and online participation</h2>
       <p>
         While the SYCO experience is best enjoyed in-person, all talks will be
@@ -231,6 +205,7 @@
                     {{ talk.title }}
                   </div>
                   <div class="slides-buttons">
+                    <a class="slides-button" href="pictures#{{ item.talk }}">[Picture]</a>
                     <a class="slides-button" href="static/slides/{{ item.talk }}.pdf">[Slides]</a>
                     {%- if talk.abstract -%}
                     <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
@@ -255,6 +230,13 @@
           </div>
         {%- endfor -%}
       </div>
+
+      <h2>Workshop photos</h2>
+
+      <p>
+        Photos taken during the workshop can be found on the
+        <a href="./pictures">SYCO 12 pictures page</a>.
+      </p>
 
       <h2 id="localInformation">Local information</h2>
 

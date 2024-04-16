@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link rel="icon" href="../static/logo.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SYCO 12: Pictures</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <div>
+          <img id="logo" src="../static/logo.svg" alt="SYCO logo" />
+          </div>
+          <div>
+            <h1>Twelfth Symposium on Compositional Structures (SYCO 12)</h1>
+            <div id="location">Birmingham, UK</div>
+            <div id="dates">15-16 April, 2024</div>
+          </div>
+        </div>
+        <h1>Workshop photos</h1>
+
+        <h2>Group photo</h2>
+
+        <div class="picture-caption">
+          Thanks to
+          <a href="https://www.birmingham.ac.uk/staff/profiles/computer-science/research-student/henes-jacqueline">
+            Jacqueline Henes
+          </a> for taking this photo!
+        </div>
+
+        <img
+          class="picture" src="../static/group-original.jpg"
+          alt="The SYCO 12 attendees standing in front of some trees"
+        />
+
+        <h2>Pub social</h2>
+
+        <img
+          class="picture" src="../static/social.jpg"
+          alt="The SYCO 12 attendees sitting around tables in a pub"
+        />
+
+        <h2>Talks: Monday</h2>
+        <div>
+          {%- for item in schedule["monday"].schedule -%}
+            {%- if item.type == "talk" -%}
+              {%- assign talk = talks[item.talk] -%}
+              {%- assign presenters = talk.authors | presenters -%}
+              {%- assign presenterList = presenters | nameList -%}
+              <div id="{{ item.talk }}">
+                <div class="picture-caption">
+                <b>{{ presenterList }}:</b>
+                {{ talk.title }}
+                </div>
+                <img
+                  class="picture"
+                  src="../static/talks/{{ item.talk }}.jpg"
+                  alt="{{ presenterList }} presenting '{{ talk.title }}'"/>
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+
+        <h2>Workshop dinner</h2>
+
+        <img
+          class="picture" src="../static/dinner0.jpg"
+          alt="The SYCO 12 attendees sitting around tables in Cherry Reds"
+        />
+        <img
+          class="picture" src="../static/dinner1.jpg"
+          alt="The SYCO 12 attendees sitting around tables in Cherry Reds"
+        />
+        <img
+          class="picture" src="../static/dinner2.jpg"
+          alt="The SYCO 12 attendees sitting around tables in Cherry Reds"
+        />
+
+        <h2>Talks: Tuesday</h2>
+        <div>
+          {%- for item in schedule["tuesday"].schedule -%}
+            {%- if item.type == "talk" -%}
+              {%- assign talk = talks[item.talk] -%}
+              {%- assign presenters = talk.authors | presenters -%}
+              {%- assign presenterList = presenters | nameList -%}
+              <div id="{{ item.talk }}">
+                <div class="picture-caption">
+                <b>{{ presenterList }}:</b>
+                {{ talk.title }}
+                </div>
+                <img
+                  class="picture"
+                  src="../static/talks/{{ item.talk }}.jpg"
+                  alt="{{ presenterList }} presenting '{{ talk.title }}'"/>
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
