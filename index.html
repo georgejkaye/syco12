@@ -237,14 +237,14 @@
                   <div class="talk-title">
                     {{ talk.title }}
                   </div>
-                  <div>
-                  <a class="slides-button" href="static/slides/{{ item.talk }}.pdf">[Slides]</a>
-                  {%- if talk.abstract -%}
-                  <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
-                    [Abstract]
-                  </button>
-                  {%- endif -%}
-                </div>
+                  <div class="slides-buttons">
+                    <a class="slides-button" href="static/slides/{{ item.talk }}.pdf">[Slides]</a>
+                    {%- if talk.abstract -%}
+                    <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
+                      [Abstract]
+                    </button>
+                    {%- endif -%}
+                  </div>
                 </div>
                 <div id="{{ item.talk }}-abstract" class="abstract abstract-hidden">
                   <div>
