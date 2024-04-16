@@ -91,6 +91,10 @@ petrisan:
   affiliation: IRIF
   web: https://www.irif.fr/~petrisan/
   img: petrisan.jpg
+rampe:
+  name: Till Rampe
+  affiliation: University of Birmingham
+  img: rampe.jpg
 rogers:
   name: Morgan Rogers
   affiliation: LIPN
