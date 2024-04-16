@@ -189,7 +189,6 @@ h2 {
 }
 
 
-
 .close-abstract-button {
   margin-top: 5px;
 }
@@ -327,4 +326,8 @@ h2 {
 .invited-talk {
   text-align: center;
   margin-top: 10px;
+}
+
+.big-picture {
+  width: 100%;
 }
