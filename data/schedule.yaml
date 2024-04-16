@@ -18,7 +18,7 @@ monday:
   - type: session
     chair: Paul Taylor
   - type: talk
-    talk: breuvart
+    talk: long
     time: 13:30-14:00
   - type: talk
     talk: rosset
@@ -52,7 +52,7 @@ tuesday:
     talk: moss
     time: 09:30-10:30
   - type: talk
-    talk: sergeant-pethuis
+    talk: sergeant-perthuis
     time: 10:30-11:00
   - type: break
     name: break
@@ -60,13 +60,13 @@ tuesday:
   - type: session
     chair: Miriam Backens
   - type: talk
-    talk: bonchi
+    talk: digiorgio
     time: 11:30-12:00
   - type: talk
     talk: donato
     time: 12:00-12:30
   - type: talk
-    talk: corbyn
+    talk: hu-tataru
     time: 12:30-13:00
   - type: break
     name: lunch

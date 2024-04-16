@@ -25,7 +25,7 @@ massacrier:
     - name: Georg Struth
   abstract: |
      We introduce a single-set axiomatisation of cubical \(\omega\)-categories, including connections and inverses. We justify these axioms by establishing a series of equivalences between the category of single-set cubical \(\omega\)-categories, and their variants with connections and inverses, and the corresponding cubical \(\omega\)-categories. We also report on the formalisation of cubical \(\omega\)-categories with the Isabelle/HOL proof assistant, which has been instrumental in finding the single-set axioms.
-bonchi:
+digiorgio:
   title: "Diagrammatic Algebra of First Order Logic"
   authors:
     - name: Filippo Bonchi
@@ -50,7 +50,7 @@ donato:
       presenter: true
   abstract:
     We introduce the flower calculus, a deep inference proof system for intuitionistic first-order logic inspired by Peirce’s existential graphs. It works as a rewriting system over inductive objects called “flowers”, that enjoy both a graphical interpretation as topological diagrams, and a textual presentation as nested sequents akin to coherent formulas. Importantly, the calculus dispenses completely with the traditional notion of symbolic connective, operating solely on nested flowers containing atomic predicates. We prove both the soundness of the full calculus and the completeness of an analytic fragment with respect to Kripke semantics. This provides to our knowledge the first analyticity result for a proof system based on existential graphs, adapting semantic cut-elimination techniques to a deep inference setting. Furthermore, the kernel of rules targetted by completeness is fully invertible, a desirable property for both automated and interactive proof search.
-breuvart:
+long:
   title: "On the Centre of Strong Graded Monads"
   authors:
     - name: Flavien Breuvart
@@ -59,14 +59,14 @@ breuvart:
     - name: Vladimir Zamdzhiev
   abstract: |
      We introduce the notion of “centre” for pomonoid-graded strong monads which generalizes some previous work that describes the centre of (not graded) strong monads. We show that, whenever the centre exists, this determines a pomonoid-graded commutative submonad of the original one. We also discuss how this relates to duoidally-graded strong monads.
-sergeant-pethuis:
+sergeant-perthuis:
   title: "Compositional statistical mechanics, entropy and variational inference"
   authors:
     - name: Grégoire Sergeant-Perthuis
       presenter: true
   abstract: |
     In this document, we aim to gather various results related to a compositional/categorical approach to rigorous Statistical Mechanics. Rigorous Statistical Mechanics is centered on the mathematical study of statistical systems. Central concepts in this field have a natural expression in terms of diagrams in a category that couples measurable maps and Markov kernels. We showed that statistical systems are particular representations of partially ordered sets (posets), that we call -specifications, and expressed their phases, i.e., Gibbs measures, as invariants of these representations. It opens the way to the use of homological algebra to compute phases of statistical systems. Two central results of rigorous Statistical Mechanics are, firstly, the characterization of extreme Gibbs measure as it relates to the zero–one law for extreme Gibbs measures, and, secondly, their variational principle which states that for translation invariant Hamiltonians, Gibbs measures are the minima of the Gibbs free energy. We showed how the characterization of extreme Gibbs measures extends to -specifications; we proposed an Entropy functional for -specifications and gave a message-passing algorithm, that generalized the belief propagation algorithm of graphical models (see O. Peltre's SYCO 8 talk), to minimize variations free energy.
-corbyn:
+hu-tataru:
   title: "homotopy.io: a proof assistant for finitely-presented globular n-categories"
   authors:
     - name: Nathan Corbyn

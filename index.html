@@ -237,6 +237,10 @@
                   <div class="talk-title">
                     {{ talk.title }}
                   </div>
+                  <a class="slides-button" href="static/slides/{{ item.talk }}.pdf">
+                    [Slides]
+                  </a>
+                  </button>
                   {%- if talk.abstract -%}
                   <button class="talk-button" onClick="toggleAbstract('{{ item.talk }}')">
                     [Abstract]
