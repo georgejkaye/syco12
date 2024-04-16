@@ -5,8 +5,8 @@ __pycache__
 .vscode
 *.aux
 *.log
-*.pdf
 *.fls
 *.fdb_latexmk
 *.synctex.gz
 svg-inkscape
+scripts/*pdf
