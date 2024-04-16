@@ -9,4 +9,4 @@
   done: true
 - name: Symposium dates
   date: Monday 15 April - Tuesday 16 April
-  done: false
+  done: true
